@@ -1,0 +1,104 @@
+[0.015s] Invoking command in '/home/user/ros2_ws/src/build/mars_rover_tasks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/mars_rover_tasks -- -j8 -l8
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target publish_mars_rover_move_executable[0m
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target plant_detector_lib[0m
+[0.073s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_obstacle_detector_executable.dir/src/subscriber_obstacle_detector.cpp.o[0m
+[0.084s] [ 37%] Built target plant_detector_lib
+[0.089s] [ 62%] Built target publish_mars_rover_move_executable
+[0.105s] [ 75%] [32mBuilding CXX object CMakeFiles/image_plant_detector_executable.dir/src/plant_detector_node.cpp.o[0m
+[2.464s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:26:26:[m[K [01;31m[Kerror: [m[K'[01m[Ksensor_msgs[m[K' was not declared in this scope
+[2.464s]    26 |     rclcpp::Subscription<[01;31m[Ksensor_msgs[m[K::msg::LaserScan>::SharedPtr subscriber_;
+[2.465s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[2.465s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:26:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.465s]    26 |     rclcpp::Subscription<sensor_msgs::msg::LaserScan[01;31m[K>[m[K::SharedPtr subscriber_;
+[2.465s]       |                                                     [01;31m[K^[m[K
+[2.465s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:26:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[2.465s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:26:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[2.465s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:26:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[2.465s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:26:56:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' at end of member declaration
+[2.465s]    26 |     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::[01;31m[KSharedPtr[m[K subscriber_;
+[2.465s]       |                                                        [01;31m[K^~~~~~~~~[m[K
+[2.465s]       |                                                                 [32m[K;[m[K
+[2.466s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:26:66:[m[K [01;31m[Kerror: [m[K'[01m[Ksubscriber_[m[K' does not name a type
+[2.466s]    26 |     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr [01;31m[Ksubscriber_[m[K;
+[2.466s]       |                                                                  [01;31m[K^~~~~~~~~~~[m[K
+[2.468s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:31:31:[m[K [01;31m[Kerror: [m[K'[01m[Ksensor_msgs[m[K' does not name a type
+[2.468s]    31 |     float getMinInRange(const [01;31m[Ksensor_msgs[m[K::msg::LaserScan::SharedPtr msg, int start, int end)
+[2.468s]       |                               [01;31m[K^~~~~~~~~~~[m[K
+[2.469s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:31:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before '[01m[K::[m[K' token
+[2.469s]    31 |     float getMinInRange(const sensor_msgs::msg[01;31m[K::[m[KLaserScan::SharedPtr msg, int start, int end)
+[2.469s]       |                                               [01;31m[K^~[m[K
+[2.469s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:31:47:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K)[m[K' before '[01m[K::[m[K' token
+[2.469s]    31 |     float getMinInRange[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KLaserScan::SharedPtr msg, int start, int end)
+[2.469s]       |                        [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+[2.469s]       |                                               [32m[K)[m[K
+[2.469s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:31:44:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' at end of member declaration
+[2.469s]    31 |     float getMinInRange(const sensor_msgs::[01;31m[Kmsg[m[K::LaserScan::SharedPtr msg, int start, int end)
+[2.469s]       |                                            [01;31m[K^~~[m[K
+[2.469s]       |                                               [32m[K;[m[K
+[2.471s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:31:49:[m[K [01;31m[Kerror: [m[K'[01m[KLaserScan[m[K' in namespace '[01m[K::[m[K' does not name a type
+[2.471s]    31 |     float getMinInRange(const sensor_msgs::msg::[01;31m[KLaserScan[m[K::SharedPtr msg, int start, int end)
+[2.471s]       |                                                 [01;31m[K^~~~~~~~~[m[K
+[2.473s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:51:35:[m[K [01;31m[Kerror: [m[K'[01m[Ksensor_msgs[m[K' does not name a type
+[2.473s]    51 |     void laserscan_callback(const [01;31m[Ksensor_msgs[m[K::msg::LaserScan::SharedPtr msg)
+[2.473s]       |                                   [01;31m[K^~~~~~~~~~~[m[K
+[2.473s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:51:51:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before '[01m[K::[m[K' token
+[2.473s]    51 |     void laserscan_callback(const sensor_msgs::msg[01;31m[K::[m[KLaserScan::SharedPtr msg)
+[2.473s]       |                                                   [01;31m[K^~[m[K
+[2.473s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:51:51:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K)[m[K' before '[01m[K::[m[K' token
+[2.473s]    51 |     void laserscan_callback[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KLaserScan::SharedPtr msg)
+[2.473s]       |                            [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+[2.473s]       |                                                   [32m[K)[m[K
+[2.473s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:51:48:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' at end of member declaration
+[2.473s]    51 |     void laserscan_callback(const sensor_msgs::[01;31m[Kmsg[m[K::LaserScan::SharedPtr msg)
+[2.473s]       |                                                [01;31m[K^~~[m[K
+[2.473s]       |                                                   [32m[K;[m[K
+[2.474s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:51:53:[m[K [01;31m[Kerror: [m[K'[01m[KLaserScan[m[K' in namespace '[01m[K::[m[K' does not name a type
+[2.475s]    51 |     void laserscan_callback(const sensor_msgs::msg::[01;31m[KLaserScan[m[K::SharedPtr msg)
+[2.475s]       |                                                     [01;31m[K^~~~~~~~~[m[K
+[2.481s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:[m[K In constructor '[01m[KObstacleDetectorNode::ObstacleDetectorNode(const string&)[m[K':
+[2.481s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:15:9:[m[K [01;31m[Kerror: [m[K'[01m[Ksubscriber_[m[K' was not declared in this scope
+[2.481s]    15 |         [01;31m[Ksubscriber_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+[2.481s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.488s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:15:49:[m[K [01;31m[Kerror: [m[K'[01m[Ksensor_msgs[m[K' was not declared in this scope
+[2.488s]    15 |         subscriber_ = this->create_subscription<[01;31m[Ksensor_msgs[m[K::msg::LaserScan>(
+[2.488s]       |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[2.488s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:15:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.488s]    15 |         subscriber_ = this->[01;31m[Kcreate_subscription<sensor_msgs::msg::LaserScan>[m[K(
+[2.488s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.493s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:15:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[KObstacleDetectorNode::create_subscription<<expression error> >(const char [12], rclcpp::QoS&, std::_Bind_helper<false, void (ObstacleDetectorNode::*)(...), ObstacleDetectorNode*, const std::_Placeholder<1>&>::type)[m[K'
+[2.493s]    15 |         subscriber_ = [01;31m[Kthis->create_subscription<sensor_msgs::msg::LaserScan>([m[K
+[2.493s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.493s]    16 | [01;31m[K            "/laser_scan",[m[K
+[2.493s]       |             [01;31m[K~~~~~~~~~~~~~~[m[K                                                   
+[2.493s]    17 | [01;31m[K            qos,[m[K
+[2.493s]       |             [01;31m[K~~~~[m[K                                                             
+[2.493s]    18 | [01;31m[K            std::bind(&ObstacleDetectorNode::laserscan_callback, this, std::placeholders::_1)[m[K
+[2.493s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.493s]    19 | [01;31m[K        )[m[K;
+[2.493s]       |         [01;31m[K~[m[K                                                                    
+[2.493s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.493s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.494s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.494s]                  from [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:1[m[K:
+[2.494s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K'
+[2.494s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[2.494s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.494s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.494s] [01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:15:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.494s]    15 |         subscriber_ = [01;31m[Kthis->create_subscription<sensor_msgs::msg::LaserScan>([m[K
+[2.494s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.494s]    16 | [01;31m[K            "/laser_scan",[m[K
+[2.494s]       |             [01;31m[K~~~~~~~~~~~~~~[m[K                                                   
+[2.494s]    17 | [01;31m[K            qos,[m[K
+[2.494s]       |             [01;31m[K~~~~[m[K                                                             
+[2.494s]    18 | [01;31m[K            std::bind(&ObstacleDetectorNode::laserscan_callback, this, std::placeholders::_1)[m[K
+[2.494s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.494s]    19 | [01;31m[K        )[m[K;
+[2.495s]       |         [01;31m[K~[m[K                                                                    
+[2.944s] gmake[2]: *** [CMakeFiles/subscriber_obstacle_detector_executable.dir/build.make:76: CMakeFiles/subscriber_obstacle_detector_executable.dir/src/subscriber_obstacle_detector.cpp.o] Error 1
+[2.944s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/subscriber_obstacle_detector_executable.dir/all] Error 2
+[2.945s] gmake[1]: *** Waiting for unfinished jobs....
+[10.056s] [ 87%] [32m[1mLinking CXX executable image_plant_detector_executable[0m
+[25.970s] [ 87%] Built target image_plant_detector_executable
+[25.971s] gmake: *** [Makefile:146: all] Error 2
+[25.973s] Invoked command in '/home/user/ros2_ws/src/build/mars_rover_tasks' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/mars_rover_tasks -- -j8 -l8

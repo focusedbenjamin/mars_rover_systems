@@ -1,0 +1,65 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/user/ros2_ws/src/mars_rover_tasks/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/ros2_ws/src/build/mars_rover_tasks
+[35m[1mConsolidate compiler generated dependencies of target plant_detector_lib[0m
+[35m[1mConsolidate compiler generated dependencies of target subscriber_obstacle_detector_executable[0m
+[35m[1mConsolidate compiler generated dependencies of target publish_mars_rover_move_executable[0m
+[ 25%] Built target plant_detector_lib
+[ 37%] [32mBuilding CXX object CMakeFiles/subscriber_obstacle_detector_executable.dir/src/subscriber_obstacle_detector.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/publish_mars_rover_move_executable.dir/src/publish_mars_rover_move.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target image_plant_detector_executable[0m
+[ 75%] Built target image_plant_detector_executable
+[ 87%] [32m[1mLinking CXX executable publish_mars_rover_move_executable[0m
+[ 87%] Built target publish_mars_rover_move_executable
+[100%] [32m[1mLinking CXX executable subscriber_obstacle_detector_executable[0m
+[100%] Built target subscriber_obstacle_detector_executable
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/subscriber_obstacle_detector_executable
+-- Set runtime path of "/home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/subscriber_obstacle_detector_executable" to ""
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/publish_mars_rover_move_executable
+-- Set runtime path of "/home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/publish_mars_rover_move_executable" to ""
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/image_plant_detector_executable
+-- Set runtime path of "/home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/image_plant_detector_executable" to ""
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks//launch
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks//launch/obstacle_detector.launch.py
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/ament_index/resource_index/package_run_dependencies/mars_rover_tasks
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/ament_index/resource_index/parent_prefix_path/mars_rover_tasks
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/environment/ament_prefix_path.dsv
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/environment/path.sh
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/environment/path.dsv
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/local_setup.bash
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/local_setup.sh
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/local_setup.zsh
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/local_setup.dsv
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.dsv
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/ament_index/resource_index/packages/mars_rover_tasks
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/cmake/mars_rover_tasksConfig.cmake
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/cmake/mars_rover_tasksConfig-version.cmake
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.xml

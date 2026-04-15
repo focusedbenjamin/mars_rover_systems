@@ -1,0 +1,408 @@
+[0.000000] (-) TimerEvent: {}
+[0.000543] (mars_rover_systems) JobQueued: {'identifier': 'mars_rover_systems', 'dependencies': OrderedDict()}
+[0.000644] (mars_rover_tasks) JobQueued: {'identifier': 'mars_rover_tasks', 'dependencies': OrderedDict()}
+[0.000862] (mars_rover_systems) JobStarted: {'identifier': 'mars_rover_systems'}
+[0.010538] (mars_rover_tasks) JobStarted: {'identifier': 'mars_rover_tasks'}
+[0.018233] (mars_rover_systems) JobProgress: {'identifier': 'mars_rover_systems', 'progress': 'cmake'}
+[0.018792] (mars_rover_systems) JobProgress: {'identifier': 'mars_rover_systems', 'progress': 'build'}
+[0.019792] (mars_rover_systems) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/src/build/mars_rover_systems', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/src/build/mars_rover_systems', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROBOT_HOSTNAME', ''), ('PWD', '/home/user/ros2_ws/src/build/mars_rover_systems'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/tracetools_test/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_read/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/test_tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/rclpy/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/leo_description/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('ROBOT_DESCRIPTION_PATH', '/home/simulations/ros2_sims_ws/install/robot_description'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/tracetools/lib:/home/simulations/ros2_sims_ws/install/rclpy/lib:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins/lib:/home/simulations/ros2_sims_ws/install/leo_description/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'a9ecce8f-1a9b-45c4-a401-5cfcbe3bb9a0'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25078'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/mars_rover_tasks/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.023297] (mars_rover_tasks) JobProgress: {'identifier': 'mars_rover_tasks', 'progress': 'cmake'}
+[0.024518] (mars_rover_tasks) JobProgress: {'identifier': 'mars_rover_tasks', 'progress': 'build'}
+[0.024690] (mars_rover_tasks) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/src/build/mars_rover_tasks', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/src/build/mars_rover_tasks', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROBOT_HOSTNAME', ''), ('PWD', '/home/user/ros2_ws/src/build/mars_rover_tasks'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/tracetools_test/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_read/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/test_tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/rclpy/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/leo_description/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('ROBOT_DESCRIPTION_PATH', '/home/simulations/ros2_sims_ws/install/robot_description'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/tracetools/lib:/home/simulations/ros2_sims_ws/install/rclpy/lib:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins/lib:/home/simulations/ros2_sims_ws/install/leo_description/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'a9ecce8f-1a9b-45c4-a401-5cfcbe3bb9a0'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25078'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/mars_rover_tasks/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.063372] (mars_rover_systems) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target temperaturemonitor_executable\x1b[0m\n'}
+[0.065135] (mars_rover_systems) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target heartbeat_executable\x1b[0m\n'}
+[0.066884] (mars_rover_systems) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target heartbeat_executable2\x1b[0m\n'}
+[0.071007] (mars_rover_tasks) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publish_mars_rover_move_executable\x1b[0m\n'}
+[0.071135] (mars_rover_tasks) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plant_detector_lib\x1b[0m\n'}
+[0.083228] (mars_rover_tasks) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_obstacle_detector_executable.dir/src/subscriber_obstacle_detector.cpp.o\x1b[0m\n'}
+[0.087506] (mars_rover_systems) StdoutLine: {'line': b'[ 33%] Built target temperaturemonitor_executable\n'}
+[0.091251] (mars_rover_systems) StdoutLine: {'line': b'[ 66%] Built target heartbeat_executable\n'}
+[0.093866] (mars_rover_systems) StdoutLine: {'line': b'[100%] Built target heartbeat_executable2\n'}
+[0.094358] (mars_rover_tasks) StdoutLine: {'line': b'[ 37%] Built target plant_detector_lib\n'}
+[0.099392] (mars_rover_tasks) StdoutLine: {'line': b'[ 62%] Built target publish_mars_rover_move_executable\n'}
+[0.099576] (-) TimerEvent: {}
+[0.103675] (mars_rover_systems) CommandEnded: {'returncode': 0}
+[0.115861] (mars_rover_tasks) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/image_plant_detector_executable.dir/src/plant_detector_node.cpp.o\x1b[0m\n'}
+[0.157591] (mars_rover_systems) JobProgress: {'identifier': 'mars_rover_systems', 'progress': 'install'}
+[0.169034] (mars_rover_systems) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/src/build/mars_rover_systems'], 'cwd': '/home/user/ros2_ws/src/build/mars_rover_systems', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROBOT_HOSTNAME', ''), ('PWD', '/home/user/ros2_ws/src/build/mars_rover_systems'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/tracetools_test/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_read/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/test_tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/rclpy/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/leo_description/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('ROBOT_DESCRIPTION_PATH', '/home/simulations/ros2_sims_ws/install/robot_description'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/tracetools/lib:/home/simulations/ros2_sims_ws/install/rclpy/lib:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins/lib:/home/simulations/ros2_sims_ws/install/leo_description/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'a9ecce8f-1a9b-45c4-a401-5cfcbe3bb9a0'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25078'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/mars_rover_tasks/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.179754] (mars_rover_systems) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.180030] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/lib/mars_rover_systems/heartbeat_executable\n'}
+[0.180451] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/lib/mars_rover_systems/heartbeat_executable2\n'}
+[0.180822] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/lib/mars_rover_systems/temperaturemonitor_executable\n'}
+[0.181065] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems//launch\n'}
+[0.181168] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems//launch/start_mars_rover_systems.launch.py\n'}
+[0.181310] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems//launch/two_rover_heartbeat.launch.py\n'}
+[0.181476] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/ament_index/resource_index/package_run_dependencies/mars_rover_systems\n'}
+[0.181605] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/ament_index/resource_index/parent_prefix_path/mars_rover_systems\n'}
+[0.181732] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/environment/ament_prefix_path.sh\n'}
+[0.181838] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/environment/ament_prefix_path.dsv\n'}
+[0.181961] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/environment/path.sh\n'}
+[0.182060] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/environment/path.dsv\n'}
+[0.182123] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/local_setup.bash\n'}
+[0.182180] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/local_setup.sh\n'}
+[0.182251] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/local_setup.zsh\n'}
+[0.182355] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/local_setup.dsv\n'}
+[0.182484] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/package.dsv\n'}
+[0.182557] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/ament_index/resource_index/packages/mars_rover_systems\n'}
+[0.182620] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/cmake/mars_rover_systemsConfig.cmake\n'}
+[0.182686] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/cmake/mars_rover_systemsConfig-version.cmake\n'}
+[0.182751] (mars_rover_systems) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/package.xml\n'}
+[0.184218] (mars_rover_systems) CommandEnded: {'returncode': 0}
+[0.200888] (-) TimerEvent: {}
+[0.261620] (mars_rover_systems) JobEnded: {'identifier': 'mars_rover_systems', 'rc': 0}
+[0.300989] (-) TimerEvent: {}
+[0.401248] (-) TimerEvent: {}
+[0.501560] (-) TimerEvent: {}
+[0.601856] (-) TimerEvent: {}
+[0.702148] (-) TimerEvent: {}
+[0.802450] (-) TimerEvent: {}
+[0.902745] (-) TimerEvent: {}
+[1.003046] (-) TimerEvent: {}
+[1.103349] (-) TimerEvent: {}
+[1.203638] (-) TimerEvent: {}
+[1.303928] (-) TimerEvent: {}
+[1.404227] (-) TimerEvent: {}
+[1.504888] (-) TimerEvent: {}
+[1.605189] (-) TimerEvent: {}
+[1.705498] (-) TimerEvent: {}
+[1.805834] (-) TimerEvent: {}
+[1.906147] (-) TimerEvent: {}
+[2.006448] (-) TimerEvent: {}
+[2.106749] (-) TimerEvent: {}
+[2.207050] (-) TimerEvent: {}
+[2.307356] (-) TimerEvent: {}
+[2.407651] (-) TimerEvent: {}
+[2.474823] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:26:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K' was not declared in this scope\n"}
+[2.475090] (mars_rover_tasks) StderrLine: {'line': b'   26 |     rclcpp::Subscription<\x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::LaserScan>::SharedPtr subscriber_;\n'}
+[2.475168] (mars_rover_tasks) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.475234] (mars_rover_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:26:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.475302] (mars_rover_tasks) StderrLine: {'line': b'   26 |     rclcpp::Subscription<sensor_msgs::msg::LaserScan\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscriber_;\n'}
+[2.475364] (mars_rover_tasks) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.475425] (mars_rover_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:26:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[2.475486] (mars_rover_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:26:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[2.475554] (mars_rover_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:26:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[2.475619] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:26:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected '\x1b[01m\x1b[K;\x1b[m\x1b[K' at end of member declaration\n"}
+[2.475691] (mars_rover_tasks) StderrLine: {'line': b'   26 |     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscriber_;\n'}
+[2.475751] (mars_rover_tasks) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.475812] (mars_rover_tasks) StderrLine: {'line': b'      |                                                                 \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.476661] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:26:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Ksubscriber_\x1b[m\x1b[K' does not name a type\n"}
+[2.476747] (mars_rover_tasks) StderrLine: {'line': b'   26 |     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr \x1b[01;31m\x1b[Ksubscriber_\x1b[m\x1b[K;\n'}
+[2.476808] (mars_rover_tasks) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.478841] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:31:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K' does not name a type\n"}
+[2.479030] (mars_rover_tasks) StderrLine: {'line': b'   31 |     float getMinInRange(const \x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::LaserScan::SharedPtr msg, int start, int end)\n'}
+[2.479117] (mars_rover_tasks) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.479183] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:31:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before '\x1b[01m\x1b[K::\x1b[m\x1b[K' token\n"}
+[2.479250] (mars_rover_tasks) StderrLine: {'line': b'   31 |     float getMinInRange(const sensor_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KLaserScan::SharedPtr msg, int start, int end)\n'}
+[2.479338] (mars_rover_tasks) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.479401] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:31:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected '\x1b[01m\x1b[K)\x1b[m\x1b[K' before '\x1b[01m\x1b[K::\x1b[m\x1b[K' token\n"}
+[2.479464] (mars_rover_tasks) StderrLine: {'line': b'   31 |     float getMinInRange\x1b[34m\x1b[K(\x1b[m\x1b[Kconst sensor_msgs::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KLaserScan::SharedPtr msg, int start, int end)\n'}
+[2.479525] (mars_rover_tasks) StderrLine: {'line': b'      |                        \x1b[34m\x1b[K~\x1b[m\x1b[K                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[2.479597] (mars_rover_tasks) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[2.479658] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:31:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected '\x1b[01m\x1b[K;\x1b[m\x1b[K' at end of member declaration\n"}
+[2.479719] (mars_rover_tasks) StderrLine: {'line': b'   31 |     float getMinInRange(const sensor_msgs::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::LaserScan::SharedPtr msg, int start, int end)\n'}
+[2.479779] (mars_rover_tasks) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.479845] (mars_rover_tasks) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.481343] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:31:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[KLaserScan\x1b[m\x1b[K' in namespace '\x1b[01m\x1b[K::\x1b[m\x1b[K' does not name a type\n"}
+[2.481419] (mars_rover_tasks) StderrLine: {'line': b'   31 |     float getMinInRange(const sensor_msgs::msg::\x1b[01;31m\x1b[KLaserScan\x1b[m\x1b[K::SharedPtr msg, int start, int end)\n'}
+[2.481479] (mars_rover_tasks) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.483140] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:51:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K' does not name a type\n"}
+[2.483242] (mars_rover_tasks) StderrLine: {'line': b'   51 |     void laserscan_callback(const \x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::LaserScan::SharedPtr msg)\n'}
+[2.483306] (mars_rover_tasks) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.483367] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:51:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before '\x1b[01m\x1b[K::\x1b[m\x1b[K' token\n"}
+[2.483429] (mars_rover_tasks) StderrLine: {'line': b'   51 |     void laserscan_callback(const sensor_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KLaserScan::SharedPtr msg)\n'}
+[2.483489] (mars_rover_tasks) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.483569] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:51:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected '\x1b[01m\x1b[K)\x1b[m\x1b[K' before '\x1b[01m\x1b[K::\x1b[m\x1b[K' token\n"}
+[2.483633] (mars_rover_tasks) StderrLine: {'line': b'   51 |     void laserscan_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst sensor_msgs::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KLaserScan::SharedPtr msg)\n'}
+[2.483694] (mars_rover_tasks) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[2.483754] (mars_rover_tasks) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[2.483820] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:51:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected '\x1b[01m\x1b[K;\x1b[m\x1b[K' at end of member declaration\n"}
+[2.483883] (mars_rover_tasks) StderrLine: {'line': b'   51 |     void laserscan_callback(const sensor_msgs::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::LaserScan::SharedPtr msg)\n'}
+[2.483943] (mars_rover_tasks) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.484003] (mars_rover_tasks) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.485135] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:51:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[KLaserScan\x1b[m\x1b[K' in namespace '\x1b[01m\x1b[K::\x1b[m\x1b[K' does not name a type\n"}
+[2.485209] (mars_rover_tasks) StderrLine: {'line': b'   51 |     void laserscan_callback(const sensor_msgs::msg::\x1b[01;31m\x1b[KLaserScan\x1b[m\x1b[K::SharedPtr msg)\n'}
+[2.485295] (mars_rover_tasks) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.491803] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:\x1b[m\x1b[K In constructor '\x1b[01m\x1b[KObstacleDetectorNode::ObstacleDetectorNode(const string&)\x1b[m\x1b[K':\n"}
+[2.491924] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:15:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Ksubscriber_\x1b[m\x1b[K' was not declared in this scope\n"}
+[2.491997] (mars_rover_tasks) StderrLine: {'line': b'   15 |         \x1b[01;31m\x1b[Ksubscriber_\x1b[m\x1b[K = this->create_subscription<sensor_msgs::msg::LaserScan>(\n'}
+[2.492065] (mars_rover_tasks) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.498229] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:15:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K' was not declared in this scope\n"}
+[2.498326] (mars_rover_tasks) StderrLine: {'line': b'   15 |         subscriber_ = this->create_subscription<\x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::LaserScan>(\n'}
+[2.498391] (mars_rover_tasks) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.498455] (mars_rover_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:15:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.498522] (mars_rover_tasks) StderrLine: {'line': b'   15 |         subscriber_ = this->\x1b[01;31m\x1b[Kcreate_subscription<sensor_msgs::msg::LaserScan>\x1b[m\x1b[K(\n'}
+[2.498592] (mars_rover_tasks) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.503328] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:15:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to '\x1b[01m\x1b[KObstacleDetectorNode::create_subscription<<expression error> >(const char [12], rclcpp::QoS&, std::_Bind_helper<false, void (ObstacleDetectorNode::*)(...), ObstacleDetectorNode*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K'\n"}
+[2.503533] (mars_rover_tasks) StderrLine: {'line': b'   15 |         subscriber_ = \x1b[01;31m\x1b[Kthis->create_subscription<sensor_msgs::msg::LaserScan>(\x1b[m\x1b[K\n'}
+[2.503605] (mars_rover_tasks) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[2.503665] (mars_rover_tasks) StderrLine: {'line': b'   16 | \x1b[01;31m\x1b[K            "/laser_scan",\x1b[m\x1b[K\n'}
+[2.503722] (mars_rover_tasks) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K                                                   \n'}
+[2.503772] (mars_rover_tasks) StderrLine: {'line': b'   17 | \x1b[01;31m\x1b[K            qos,\x1b[m\x1b[K\n'}
+[2.503820] (mars_rover_tasks) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~\x1b[m\x1b[K                                                             \n'}
+[2.503873] (mars_rover_tasks) StderrLine: {'line': b'   18 | \x1b[01;31m\x1b[K            std::bind(&ObstacleDetectorNode::laserscan_callback, this, std::placeholders::_1)\x1b[m\x1b[K\n'}
+[2.503933] (mars_rover_tasks) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.503983] (mars_rover_tasks) StderrLine: {'line': b'   19 | \x1b[01;31m\x1b[K        )\x1b[m\x1b[K;\n'}
+[2.504042] (mars_rover_tasks) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                                    \n'}
+[2.504093] (mars_rover_tasks) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.504155] (mars_rover_tasks) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.504220] (mars_rover_tasks) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.504280] (mars_rover_tasks) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:1\x1b[m\x1b[K:\n'}
+[2.504339] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K'\n"}
+[2.504404] (mars_rover_tasks) StderrLine: {'line': b'  219 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[2.504465] (mars_rover_tasks) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.504526] (mars_rover_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.504587] (mars_rover_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:15:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.504647] (mars_rover_tasks) StderrLine: {'line': b'   15 |         subscriber_ = \x1b[01;31m\x1b[Kthis->create_subscription<sensor_msgs::msg::LaserScan>(\x1b[m\x1b[K\n'}
+[2.504707] (mars_rover_tasks) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[2.504766] (mars_rover_tasks) StderrLine: {'line': b'   16 | \x1b[01;31m\x1b[K            "/laser_scan",\x1b[m\x1b[K\n'}
+[2.504825] (mars_rover_tasks) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K                                                   \n'}
+[2.504885] (mars_rover_tasks) StderrLine: {'line': b'   17 | \x1b[01;31m\x1b[K            qos,\x1b[m\x1b[K\n'}
+[2.504947] (mars_rover_tasks) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~\x1b[m\x1b[K                                                             \n'}
+[2.505007] (mars_rover_tasks) StderrLine: {'line': b'   18 | \x1b[01;31m\x1b[K            std::bind(&ObstacleDetectorNode::laserscan_callback, this, std::placeholders::_1)\x1b[m\x1b[K\n'}
+[2.505065] (mars_rover_tasks) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.505125] (mars_rover_tasks) StderrLine: {'line': b'   19 | \x1b[01;31m\x1b[K        )\x1b[m\x1b[K;\n'}
+[2.505183] (mars_rover_tasks) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                                    \n'}
+[2.507717] (-) TimerEvent: {}
+[2.607952] (-) TimerEvent: {}
+[2.708251] (-) TimerEvent: {}
+[2.808565] (-) TimerEvent: {}
+[2.908865] (-) TimerEvent: {}
+[2.954895] (mars_rover_tasks) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/subscriber_obstacle_detector_executable.dir/build.make:76: CMakeFiles/subscriber_obstacle_detector_executable.dir/src/subscriber_obstacle_detector.cpp.o] Error 1\n'}
+[2.955128] (mars_rover_tasks) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/subscriber_obstacle_detector_executable.dir/all] Error 2\n'}
+[2.955206] (mars_rover_tasks) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.008976] (-) TimerEvent: {}
+[3.109279] (-) TimerEvent: {}
+[3.209579] (-) TimerEvent: {}
+[3.309877] (-) TimerEvent: {}
+[3.410181] (-) TimerEvent: {}
+[3.510545] (-) TimerEvent: {}
+[3.610838] (-) TimerEvent: {}
+[3.711140] (-) TimerEvent: {}
+[3.811435] (-) TimerEvent: {}
+[3.911738] (-) TimerEvent: {}
+[4.012037] (-) TimerEvent: {}
+[4.112333] (-) TimerEvent: {}
+[4.212625] (-) TimerEvent: {}
+[4.312921] (-) TimerEvent: {}
+[4.413221] (-) TimerEvent: {}
+[4.513544] (-) TimerEvent: {}
+[4.613870] (-) TimerEvent: {}
+[4.714551] (-) TimerEvent: {}
+[4.814841] (-) TimerEvent: {}
+[4.915139] (-) TimerEvent: {}
+[5.015437] (-) TimerEvent: {}
+[5.115740] (-) TimerEvent: {}
+[5.216033] (-) TimerEvent: {}
+[5.316328] (-) TimerEvent: {}
+[5.416623] (-) TimerEvent: {}
+[5.516928] (-) TimerEvent: {}
+[5.617231] (-) TimerEvent: {}
+[5.717552] (-) TimerEvent: {}
+[5.817855] (-) TimerEvent: {}
+[5.918158] (-) TimerEvent: {}
+[6.018461] (-) TimerEvent: {}
+[6.118772] (-) TimerEvent: {}
+[6.219075] (-) TimerEvent: {}
+[6.319462] (-) TimerEvent: {}
+[6.419761] (-) TimerEvent: {}
+[6.520059] (-) TimerEvent: {}
+[6.620357] (-) TimerEvent: {}
+[6.720657] (-) TimerEvent: {}
+[6.820957] (-) TimerEvent: {}
+[6.921247] (-) TimerEvent: {}
+[7.021552] (-) TimerEvent: {}
+[7.121861] (-) TimerEvent: {}
+[7.222151] (-) TimerEvent: {}
+[7.322446] (-) TimerEvent: {}
+[7.422730] (-) TimerEvent: {}
+[7.523014] (-) TimerEvent: {}
+[7.623298] (-) TimerEvent: {}
+[7.723617] (-) TimerEvent: {}
+[7.823922] (-) TimerEvent: {}
+[7.924221] (-) TimerEvent: {}
+[8.024533] (-) TimerEvent: {}
+[8.124830] (-) TimerEvent: {}
+[8.225121] (-) TimerEvent: {}
+[8.325442] (-) TimerEvent: {}
+[8.425758] (-) TimerEvent: {}
+[8.526048] (-) TimerEvent: {}
+[8.626336] (-) TimerEvent: {}
+[8.726631] (-) TimerEvent: {}
+[8.826923] (-) TimerEvent: {}
+[8.927216] (-) TimerEvent: {}
+[9.027502] (-) TimerEvent: {}
+[9.127803] (-) TimerEvent: {}
+[9.228097] (-) TimerEvent: {}
+[9.328393] (-) TimerEvent: {}
+[9.428690] (-) TimerEvent: {}
+[9.528989] (-) TimerEvent: {}
+[9.629274] (-) TimerEvent: {}
+[9.729570] (-) TimerEvent: {}
+[9.829859] (-) TimerEvent: {}
+[9.930148] (-) TimerEvent: {}
+[10.030440] (-) TimerEvent: {}
+[10.066580] (mars_rover_tasks) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable image_plant_detector_executable\x1b[0m\n'}
+[10.130554] (-) TimerEvent: {}
+[10.230856] (-) TimerEvent: {}
+[10.331154] (-) TimerEvent: {}
+[10.431495] (-) TimerEvent: {}
+[10.531817] (-) TimerEvent: {}
+[10.632131] (-) TimerEvent: {}
+[10.732452] (-) TimerEvent: {}
+[10.832782] (-) TimerEvent: {}
+[10.933089] (-) TimerEvent: {}
+[11.033418] (-) TimerEvent: {}
+[11.133727] (-) TimerEvent: {}
+[11.234017] (-) TimerEvent: {}
+[11.334309] (-) TimerEvent: {}
+[11.434603] (-) TimerEvent: {}
+[11.535363] (-) TimerEvent: {}
+[11.635661] (-) TimerEvent: {}
+[11.735962] (-) TimerEvent: {}
+[11.836260] (-) TimerEvent: {}
+[11.936561] (-) TimerEvent: {}
+[12.036859] (-) TimerEvent: {}
+[12.137151] (-) TimerEvent: {}
+[12.237473] (-) TimerEvent: {}
+[12.337765] (-) TimerEvent: {}
+[12.438067] (-) TimerEvent: {}
+[12.538368] (-) TimerEvent: {}
+[12.638680] (-) TimerEvent: {}
+[12.738984] (-) TimerEvent: {}
+[12.839275] (-) TimerEvent: {}
+[12.939578] (-) TimerEvent: {}
+[13.039870] (-) TimerEvent: {}
+[13.140170] (-) TimerEvent: {}
+[13.240473] (-) TimerEvent: {}
+[13.340774] (-) TimerEvent: {}
+[13.441119] (-) TimerEvent: {}
+[13.541511] (-) TimerEvent: {}
+[13.641831] (-) TimerEvent: {}
+[13.742128] (-) TimerEvent: {}
+[13.842702] (-) TimerEvent: {}
+[13.943091] (-) TimerEvent: {}
+[14.043400] (-) TimerEvent: {}
+[14.143724] (-) TimerEvent: {}
+[14.244028] (-) TimerEvent: {}
+[14.344344] (-) TimerEvent: {}
+[14.444656] (-) TimerEvent: {}
+[14.544957] (-) TimerEvent: {}
+[14.645248] (-) TimerEvent: {}
+[14.745557] (-) TimerEvent: {}
+[14.845849] (-) TimerEvent: {}
+[14.946153] (-) TimerEvent: {}
+[15.046459] (-) TimerEvent: {}
+[15.146758] (-) TimerEvent: {}
+[15.247054] (-) TimerEvent: {}
+[15.347350] (-) TimerEvent: {}
+[15.447649] (-) TimerEvent: {}
+[15.547948] (-) TimerEvent: {}
+[15.648238] (-) TimerEvent: {}
+[15.748535] (-) TimerEvent: {}
+[15.848836] (-) TimerEvent: {}
+[15.949143] (-) TimerEvent: {}
+[16.049464] (-) TimerEvent: {}
+[16.149758] (-) TimerEvent: {}
+[16.250063] (-) TimerEvent: {}
+[16.350361] (-) TimerEvent: {}
+[16.450657] (-) TimerEvent: {}
+[16.550965] (-) TimerEvent: {}
+[16.651275] (-) TimerEvent: {}
+[16.751585] (-) TimerEvent: {}
+[16.851890] (-) TimerEvent: {}
+[16.952195] (-) TimerEvent: {}
+[17.053120] (-) TimerEvent: {}
+[17.153428] (-) TimerEvent: {}
+[17.253720] (-) TimerEvent: {}
+[17.354011] (-) TimerEvent: {}
+[17.454319] (-) TimerEvent: {}
+[17.554625] (-) TimerEvent: {}
+[17.654917] (-) TimerEvent: {}
+[17.755204] (-) TimerEvent: {}
+[17.855508] (-) TimerEvent: {}
+[17.955821] (-) TimerEvent: {}
+[18.056111] (-) TimerEvent: {}
+[18.156403] (-) TimerEvent: {}
+[18.256710] (-) TimerEvent: {}
+[18.357009] (-) TimerEvent: {}
+[18.457314] (-) TimerEvent: {}
+[18.557617] (-) TimerEvent: {}
+[18.657917] (-) TimerEvent: {}
+[18.758210] (-) TimerEvent: {}
+[18.858504] (-) TimerEvent: {}
+[18.958798] (-) TimerEvent: {}
+[19.059096] (-) TimerEvent: {}
+[19.159413] (-) TimerEvent: {}
+[19.259719] (-) TimerEvent: {}
+[19.360018] (-) TimerEvent: {}
+[19.460324] (-) TimerEvent: {}
+[19.560652] (-) TimerEvent: {}
+[19.660955] (-) TimerEvent: {}
+[19.761285] (-) TimerEvent: {}
+[19.861606] (-) TimerEvent: {}
+[19.961917] (-) TimerEvent: {}
+[20.062230] (-) TimerEvent: {}
+[20.162539] (-) TimerEvent: {}
+[20.262846] (-) TimerEvent: {}
+[20.363148] (-) TimerEvent: {}
+[20.463452] (-) TimerEvent: {}
+[20.563763] (-) TimerEvent: {}
+[20.664059] (-) TimerEvent: {}
+[20.764364] (-) TimerEvent: {}
+[20.864680] (-) TimerEvent: {}
+[20.964993] (-) TimerEvent: {}
+[21.065291] (-) TimerEvent: {}
+[21.165588] (-) TimerEvent: {}
+[21.265883] (-) TimerEvent: {}
+[21.366176] (-) TimerEvent: {}
+[21.466469] (-) TimerEvent: {}
+[21.566765] (-) TimerEvent: {}
+[21.667058] (-) TimerEvent: {}
+[21.767350] (-) TimerEvent: {}
+[21.867643] (-) TimerEvent: {}
+[21.967947] (-) TimerEvent: {}
+[22.068265] (-) TimerEvent: {}
+[22.168570] (-) TimerEvent: {}
+[22.268874] (-) TimerEvent: {}
+[22.369162] (-) TimerEvent: {}
+[22.469476] (-) TimerEvent: {}
+[22.569776] (-) TimerEvent: {}
+[22.670074] (-) TimerEvent: {}
+[22.770372] (-) TimerEvent: {}
+[22.870667] (-) TimerEvent: {}
+[22.970965] (-) TimerEvent: {}
+[23.071261] (-) TimerEvent: {}
+[23.171570] (-) TimerEvent: {}
+[23.271865] (-) TimerEvent: {}
+[23.372162] (-) TimerEvent: {}
+[23.472466] (-) TimerEvent: {}
+[23.572764] (-) TimerEvent: {}
+[23.673068] (-) TimerEvent: {}
+[23.773368] (-) TimerEvent: {}
+[23.873659] (-) TimerEvent: {}
+[23.973952] (-) TimerEvent: {}
+[24.074248] (-) TimerEvent: {}
+[24.174557] (-) TimerEvent: {}
+[24.274865] (-) TimerEvent: {}
+[24.375162] (-) TimerEvent: {}
+[24.475458] (-) TimerEvent: {}
+[24.575759] (-) TimerEvent: {}
+[24.676070] (-) TimerEvent: {}
+[24.776423] (-) TimerEvent: {}
+[24.876768] (-) TimerEvent: {}
+[24.977117] (-) TimerEvent: {}
+[25.077447] (-) TimerEvent: {}
+[25.177748] (-) TimerEvent: {}
+[25.278046] (-) TimerEvent: {}
+[25.378927] (-) TimerEvent: {}
+[25.479226] (-) TimerEvent: {}
+[25.579517] (-) TimerEvent: {}
+[25.679819] (-) TimerEvent: {}
+[25.780118] (-) TimerEvent: {}
+[25.880424] (-) TimerEvent: {}
+[25.980711] (-) TimerEvent: {}
+[25.980982] (mars_rover_tasks) StdoutLine: {'line': b'[ 87%] Built target image_plant_detector_executable\n'}
+[25.981711] (mars_rover_tasks) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[25.983674] (mars_rover_tasks) CommandEnded: {'returncode': 2}
+[26.036046] (mars_rover_tasks) JobEnded: {'identifier': 'mars_rover_tasks', 'rc': 2}
+[26.046583] (-) EventReactorShutdown: {}

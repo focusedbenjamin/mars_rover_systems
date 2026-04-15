@@ -1,0 +1,482 @@
+[0.000000] (-) TimerEvent: {}
+[0.000341] (mars_rover_systems) JobQueued: {'identifier': 'mars_rover_systems', 'dependencies': OrderedDict()}
+[0.000637] (mars_rover_tasks) JobQueued: {'identifier': 'mars_rover_tasks', 'dependencies': OrderedDict()}
+[0.000679] (mars_rover_systems) JobStarted: {'identifier': 'mars_rover_systems'}
+[0.010812] (mars_rover_tasks) JobStarted: {'identifier': 'mars_rover_tasks'}
+[0.018045] (mars_rover_systems) JobProgress: {'identifier': 'mars_rover_systems', 'progress': 'cmake'}
+[0.018197] (mars_rover_systems) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/mars_rover_systems', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/mars_rover_systems'], 'cwd': '/home/user/ros2_ws/src/build/mars_rover_systems', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROBOT_HOSTNAME', ''), ('PWD', '/home/user/ros2_ws/src/build/mars_rover_systems'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/tracetools_test/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_read/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/test_tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/rclpy/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/leo_description/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('ROBOT_DESCRIPTION_PATH', '/home/simulations/ros2_sims_ws/install/robot_description'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/tracetools/lib:/home/simulations/ros2_sims_ws/install/rclpy/lib:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins/lib:/home/simulations/ros2_sims_ws/install/leo_description/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'a9ecce8f-1a9b-45c4-a401-5cfcbe3bb9a0'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25078'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/mars_rover_tasks/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.022052] (mars_rover_tasks) JobProgress: {'identifier': 'mars_rover_tasks', 'progress': 'cmake'}
+[0.022642] (mars_rover_tasks) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/mars_rover_tasks', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/mars_rover_tasks'], 'cwd': '/home/user/ros2_ws/src/build/mars_rover_tasks', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROBOT_HOSTNAME', ''), ('PWD', '/home/user/ros2_ws/src/build/mars_rover_tasks'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/tracetools_test/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_read/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/test_tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/rclpy/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/leo_description/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('ROBOT_DESCRIPTION_PATH', '/home/simulations/ros2_sims_ws/install/robot_description'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/tracetools/lib:/home/simulations/ros2_sims_ws/install/rclpy/lib:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins/lib:/home/simulations/ros2_sims_ws/install/leo_description/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'a9ecce8f-1a9b-45c4-a401-5cfcbe3bb9a0'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25078'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/mars_rover_tasks/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099473] (-) TimerEvent: {}
+[0.199782] (-) TimerEvent: {}
+[0.300110] (-) TimerEvent: {}
+[0.400427] (-) TimerEvent: {}
+[0.500744] (-) TimerEvent: {}
+[0.601048] (-) TimerEvent: {}
+[0.701373] (-) TimerEvent: {}
+[0.801687] (-) TimerEvent: {}
+[0.902017] (-) TimerEvent: {}
+[1.002331] (-) TimerEvent: {}
+[1.102648] (-) TimerEvent: {}
+[1.202994] (-) TimerEvent: {}
+[1.303313] (-) TimerEvent: {}
+[1.403638] (-) TimerEvent: {}
+[1.503952] (-) TimerEvent: {}
+[1.604266] (-) TimerEvent: {}
+[1.704574] (-) TimerEvent: {}
+[1.804878] (-) TimerEvent: {}
+[1.905203] (-) TimerEvent: {}
+[2.005537] (-) TimerEvent: {}
+[2.105840] (-) TimerEvent: {}
+[2.206143] (-) TimerEvent: {}
+[2.306452] (-) TimerEvent: {}
+[2.406754] (-) TimerEvent: {}
+[2.507077] (-) TimerEvent: {}
+[2.607404] (-) TimerEvent: {}
+[2.707771] (-) TimerEvent: {}
+[2.808081] (-) TimerEvent: {}
+[2.908381] (-) TimerEvent: {}
+[3.008694] (-) TimerEvent: {}
+[3.108996] (-) TimerEvent: {}
+[3.209293] (-) TimerEvent: {}
+[3.309616] (-) TimerEvent: {}
+[3.409977] (-) TimerEvent: {}
+[3.510270] (-) TimerEvent: {}
+[3.610572] (-) TimerEvent: {}
+[3.710881] (-) TimerEvent: {}
+[3.811174] (-) TimerEvent: {}
+[3.911468] (-) TimerEvent: {}
+[4.011764] (-) TimerEvent: {}
+[4.112065] (-) TimerEvent: {}
+[4.212350] (-) TimerEvent: {}
+[4.219565] (mars_rover_systems) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.219809] (mars_rover_tasks) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.279799] (mars_rover_tasks) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.280854] (mars_rover_systems) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.290789] (mars_rover_tasks) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.291043] (mars_rover_systems) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.312442] (-) TimerEvent: {}
+[4.412736] (-) TimerEvent: {}
+[4.513052] (-) TimerEvent: {}
+[4.513845] (mars_rover_systems) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.514759] (mars_rover_tasks) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.522084] (mars_rover_tasks) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.522883] (mars_rover_systems) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.523012] (mars_rover_tasks) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.523121] (mars_rover_systems) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.523720] (mars_rover_systems) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.523799] (mars_rover_tasks) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.527067] (mars_rover_systems) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.527260] (mars_rover_tasks) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.611868] (mars_rover_systems) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.612242] (mars_rover_tasks) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.613125] (-) TimerEvent: {}
+[4.619401] (mars_rover_systems) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.619645] (mars_rover_systems) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.620101] (mars_rover_systems) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.620809] (mars_rover_tasks) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.621043] (mars_rover_tasks) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.621573] (mars_rover_tasks) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.631750] (mars_rover_tasks) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.631912] (mars_rover_systems) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.713240] (-) TimerEvent: {}
+[4.810262] (mars_rover_tasks) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.811495] (mars_rover_systems) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.813330] (-) TimerEvent: {}
+[4.913613] (-) TimerEvent: {}
+[4.988550] (mars_rover_tasks) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.988737] (mars_rover_systems) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.013716] (-) TimerEvent: {}
+[5.101951] (mars_rover_tasks) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.102156] (mars_rover_systems) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.113847] (-) TimerEvent: {}
+[5.120340] (mars_rover_systems) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.120596] (mars_rover_tasks) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.141601] (mars_rover_tasks) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.141897] (mars_rover_systems) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.170775] (mars_rover_systems) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.170988] (mars_rover_tasks) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.210405] (mars_rover_tasks) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.210990] (mars_rover_systems) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.213922] (-) TimerEvent: {}
+[5.314214] (-) TimerEvent: {}
+[5.340729] (mars_rover_systems) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.340979] (mars_rover_tasks) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.349395] (mars_rover_tasks) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.349638] (mars_rover_systems) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.414307] (-) TimerEvent: {}
+[5.514576] (-) TimerEvent: {}
+[5.614894] (-) TimerEvent: {}
+[5.715202] (-) TimerEvent: {}
+[5.815511] (-) TimerEvent: {}
+[5.915819] (-) TimerEvent: {}
+[6.016118] (-) TimerEvent: {}
+[6.116420] (-) TimerEvent: {}
+[6.216719] (-) TimerEvent: {}
+[6.221580] (mars_rover_tasks) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.222043] (mars_rover_systems) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.267995] (mars_rover_systems) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.268179] (mars_rover_tasks) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.316823] (-) TimerEvent: {}
+[6.348753] (mars_rover_systems) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.349274] (mars_rover_tasks) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.377642] (mars_rover_tasks) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.377861] (mars_rover_systems) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.417259] (-) TimerEvent: {}
+[6.450401] (mars_rover_systems) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.450899] (mars_rover_systems) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.451680] (mars_rover_tasks) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.452431] (mars_rover_tasks) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.517363] (-) TimerEvent: {}
+[6.533865] (mars_rover_systems) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.534211] (mars_rover_tasks) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.534915] (mars_rover_systems) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.535356] (mars_rover_tasks) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.617474] (-) TimerEvent: {}
+[6.717830] (-) TimerEvent: {}
+[6.740708] (mars_rover_tasks) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[6.742757] (mars_rover_systems) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.797969] (mars_rover_tasks) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.817918] (-) TimerEvent: {}
+[6.867891] (mars_rover_systems) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.868107] (mars_rover_systems) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.868186] (mars_rover_systems) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.869393] (mars_rover_systems) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.871375] (mars_rover_systems) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.872719] (mars_rover_systems) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.878845] (mars_rover_systems) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.878926] (mars_rover_systems) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.880196] (mars_rover_systems) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.882118] (mars_rover_systems) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.896211] (mars_rover_tasks) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[6.897751] (mars_rover_systems) StdoutLine: {'line': b'-- Generating done\n'}
+[6.900447] (mars_rover_systems) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/src/build/mars_rover_systems\n'}
+[6.913120] (mars_rover_systems) CommandEnded: {'returncode': 0}
+[6.913715] (mars_rover_systems) JobProgress: {'identifier': 'mars_rover_systems', 'progress': 'build'}
+[6.915245] (mars_rover_systems) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/src/build/mars_rover_systems', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/src/build/mars_rover_systems', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROBOT_HOSTNAME', ''), ('PWD', '/home/user/ros2_ws/src/build/mars_rover_systems'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/tracetools_test/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_read/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/test_tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/rclpy/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/leo_description/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('ROBOT_DESCRIPTION_PATH', '/home/simulations/ros2_sims_ws/install/robot_description'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/tracetools/lib:/home/simulations/ros2_sims_ws/install/rclpy/lib:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins/lib:/home/simulations/ros2_sims_ws/install/leo_description/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'a9ecce8f-1a9b-45c4-a401-5cfcbe3bb9a0'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25078'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/mars_rover_tasks/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[6.917986] (-) TimerEvent: {}
+[6.965450] (mars_rover_systems) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/heartbeat_executable2.dir/src/heartbeat2.cpp.o\x1b[0m\n'}
+[6.965851] (mars_rover_systems) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/temperaturemonitor_executable.dir/src/temperature_monitor.cpp.o\x1b[0m\n'}
+[6.966018] (mars_rover_systems) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/heartbeat_executable.dir/src/heartbeat.cpp.o\x1b[0m\n'}
+[7.018106] (-) TimerEvent: {}
+[7.057912] (mars_rover_tasks) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[7.082438] (mars_rover_tasks) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.118229] (-) TimerEvent: {}
+[7.218578] (-) TimerEvent: {}
+[7.235121] (mars_rover_tasks) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.236827] (mars_rover_tasks) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.237134] (mars_rover_tasks) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/user/ros2_ws/src/mars_rover_tasks/include\n'}
+[7.237252] (mars_rover_tasks) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.238789] (mars_rover_tasks) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[7.238983] (mars_rover_tasks) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[7.239711] (mars_rover_tasks) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.240564] (mars_rover_tasks) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.241447] (mars_rover_tasks) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.242959] (mars_rover_tasks) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.243127] (mars_rover_tasks) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.243907] (mars_rover_tasks) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.246532] (mars_rover_tasks) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.277549] (mars_rover_tasks) StdoutLine: {'line': b'-- Generating done\n'}
+[7.279911] (mars_rover_tasks) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/src/build/mars_rover_tasks\n'}
+[7.291848] (mars_rover_tasks) CommandEnded: {'returncode': 0}
+[7.292485] (mars_rover_tasks) JobProgress: {'identifier': 'mars_rover_tasks', 'progress': 'build'}
+[7.293477] (mars_rover_tasks) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/src/build/mars_rover_tasks', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/src/build/mars_rover_tasks', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROBOT_HOSTNAME', ''), ('PWD', '/home/user/ros2_ws/src/build/mars_rover_tasks'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/tracetools_test/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_read/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/test_tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/rclpy/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/leo_description/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('ROBOT_DESCRIPTION_PATH', '/home/simulations/ros2_sims_ws/install/robot_description'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/tracetools/lib:/home/simulations/ros2_sims_ws/install/rclpy/lib:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins/lib:/home/simulations/ros2_sims_ws/install/leo_description/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'a9ecce8f-1a9b-45c4-a401-5cfcbe3bb9a0'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25078'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/mars_rover_tasks/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[7.318720] (-) TimerEvent: {}
+[7.353879] (mars_rover_tasks) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/plant_detector_lib.dir/src/plant_detector.cpp.o\x1b[0m\n'}
+[7.360072] (mars_rover_tasks) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_obstacle_detector_executable.dir/src/subscriber_obstacle_detector.cpp.o\x1b[0m\n'}
+[7.360403] (mars_rover_tasks) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/publish_mars_rover_move_executable.dir/src/publish_mars_rover_move.cpp.o\x1b[0m\n'}
+[7.418857] (-) TimerEvent: {}
+[7.519487] (-) TimerEvent: {}
+[7.619899] (-) TimerEvent: {}
+[7.702857] (mars_rover_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/subscriber_obstacle_detector.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/msg/laser_scan.hpp: No such file or directory\n'}
+[7.703228] (mars_rover_tasks) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"sensor_msgs/msg/laser_scan.hpp"\x1b[m\x1b[K\n'}
+[7.703408] (mars_rover_tasks) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.703579] (mars_rover_tasks) StderrLine: {'line': b'compilation terminated.\n'}
+[7.709986] (mars_rover_tasks) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/subscriber_obstacle_detector_executable.dir/build.make:76: CMakeFiles/subscriber_obstacle_detector_executable.dir/src/subscriber_obstacle_detector.cpp.o] Error 1\n'}
+[7.710433] (mars_rover_tasks) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/subscriber_obstacle_detector_executable.dir/all] Error 2\n'}
+[7.710552] (mars_rover_tasks) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[7.721516] (-) TimerEvent: {}
+[7.821888] (-) TimerEvent: {}
+[7.922236] (-) TimerEvent: {}
+[8.022639] (-) TimerEvent: {}
+[8.123050] (-) TimerEvent: {}
+[8.223433] (-) TimerEvent: {}
+[8.323837] (-) TimerEvent: {}
+[8.424270] (-) TimerEvent: {}
+[8.524666] (-) TimerEvent: {}
+[8.625320] (-) TimerEvent: {}
+[8.725721] (-) TimerEvent: {}
+[8.826161] (-) TimerEvent: {}
+[8.926542] (-) TimerEvent: {}
+[9.026929] (-) TimerEvent: {}
+[9.127646] (-) TimerEvent: {}
+[9.228015] (-) TimerEvent: {}
+[9.328388] (-) TimerEvent: {}
+[9.428786] (-) TimerEvent: {}
+[9.529183] (-) TimerEvent: {}
+[9.630006] (-) TimerEvent: {}
+[9.730399] (-) TimerEvent: {}
+[9.830788] (-) TimerEvent: {}
+[9.931187] (-) TimerEvent: {}
+[9.959389] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/publish_mars_rover_move.cpp:\x1b[m\x1b[K In function '\x1b[01m\x1b[Kvoid signal_handler(int)\x1b[m\x1b[K':\n"}
+[9.960118] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/publish_mars_rover_move.cpp:40:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter '\x1b[01m\x1b[Ksignum\x1b[m\x1b[K' [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n"}
+[9.960283] (mars_rover_tasks) StderrLine: {'line': b'   40 | void signal_handler(\x1b[01;35m\x1b[Kint signum\x1b[m\x1b[K)\n'}
+[9.960405] (mars_rover_tasks) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[10.031318] (-) TimerEvent: {}
+[10.122835] (mars_rover_systems) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable heartbeat_executable\x1b[0m\n'}
+[10.131427] (-) TimerEvent: {}
+[10.196445] (mars_rover_systems) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable heartbeat_executable2\x1b[0m\n'}
+[10.231572] (-) TimerEvent: {}
+[10.246089] (mars_rover_systems) StdoutLine: {'line': b'[ 83%] Built target heartbeat_executable\n'}
+[10.323053] (mars_rover_systems) StdoutLine: {'line': b'[ 83%] Built target heartbeat_executable2\n'}
+[10.331661] (-) TimerEvent: {}
+[10.369627] (mars_rover_systems) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable temperaturemonitor_executable\x1b[0m\n'}
+[10.431787] (-) TimerEvent: {}
+[10.482139] (mars_rover_systems) StdoutLine: {'line': b'[100%] Built target temperaturemonitor_executable\n'}
+[10.491592] (mars_rover_systems) CommandEnded: {'returncode': 0}
+[10.531879] (-) TimerEvent: {}
+[10.536757] (mars_rover_systems) JobProgress: {'identifier': 'mars_rover_systems', 'progress': 'install'}
+[10.545396] (mars_rover_systems) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/src/build/mars_rover_systems'], 'cwd': '/home/user/ros2_ws/src/build/mars_rover_systems', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROBOT_HOSTNAME', ''), ('PWD', '/home/user/ros2_ws/src/build/mars_rover_systems'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/tracetools_test/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_read/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/test_tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/rclpy/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/leo_description/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('ROBOT_DESCRIPTION_PATH', '/home/simulations/ros2_sims_ws/install/robot_description'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/tracetools/lib:/home/simulations/ros2_sims_ws/install/rclpy/lib:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins/lib:/home/simulations/ros2_sims_ws/install/leo_description/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'a9ecce8f-1a9b-45c4-a401-5cfcbe3bb9a0'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25078'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/mars_rover_tasks/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[10.553846] (mars_rover_systems) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.554070] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/lib/mars_rover_systems/heartbeat_executable\n'}
+[10.554806] (mars_rover_systems) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/src/install/mars_rover_systems/lib/mars_rover_systems/heartbeat_executable" to ""\n'}
+[10.554990] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/lib/mars_rover_systems/heartbeat_executable2\n'}
+[10.555622] (mars_rover_systems) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/src/install/mars_rover_systems/lib/mars_rover_systems/heartbeat_executable2" to ""\n'}
+[10.555790] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/lib/mars_rover_systems/temperaturemonitor_executable\n'}
+[10.556792] (mars_rover_systems) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/src/install/mars_rover_systems/lib/mars_rover_systems/temperaturemonitor_executable" to ""\n'}
+[10.556936] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems//launch\n'}
+[10.557091] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems//launch/start_mars_rover_systems.launch.py\n'}
+[10.557215] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems//launch/two_rover_heartbeat.launch.py\n'}
+[10.557371] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/ament_index/resource_index/package_run_dependencies/mars_rover_systems\n'}
+[10.557480] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/ament_index/resource_index/parent_prefix_path/mars_rover_systems\n'}
+[10.557628] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/environment/ament_prefix_path.sh\n'}
+[10.557788] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/environment/ament_prefix_path.dsv\n'}
+[10.558006] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/environment/path.sh\n'}
+[10.558198] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/environment/path.dsv\n'}
+[10.558399] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/local_setup.bash\n'}
+[10.558598] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/local_setup.sh\n'}
+[10.558810] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/local_setup.zsh\n'}
+[10.559008] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/local_setup.dsv\n'}
+[10.559203] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/package.dsv\n'}
+[10.559963] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/ament_index/resource_index/packages/mars_rover_systems\n'}
+[10.560599] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/cmake/mars_rover_systemsConfig.cmake\n'}
+[10.560751] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/cmake/mars_rover_systemsConfig-version.cmake\n'}
+[10.560865] (mars_rover_systems) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/mars_rover_systems/share/mars_rover_systems/package.xml\n'}
+[10.562364] (mars_rover_systems) CommandEnded: {'returncode': 0}
+[10.627978] (mars_rover_systems) JobEnded: {'identifier': 'mars_rover_systems', 'rc': 0}
+[10.631956] (-) TimerEvent: {}
+[10.732184] (-) TimerEvent: {}
+[10.832490] (-) TimerEvent: {}
+[10.932789] (-) TimerEvent: {}
+[11.033073] (-) TimerEvent: {}
+[11.133365] (-) TimerEvent: {}
+[11.233675] (-) TimerEvent: {}
+[11.333970] (-) TimerEvent: {}
+[11.434335] (-) TimerEvent: {}
+[11.534682] (-) TimerEvent: {}
+[11.634986] (-) TimerEvent: {}
+[11.735296] (-) TimerEvent: {}
+[11.835598] (-) TimerEvent: {}
+[11.935967] (-) TimerEvent: {}
+[11.951478] (mars_rover_tasks) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable publish_mars_rover_move_executable\x1b[0m\n'}
+[12.036075] (-) TimerEvent: {}
+[12.130899] (mars_rover_tasks) StdoutLine: {'line': b'[ 50%] Built target publish_mars_rover_move_executable\n'}
+[12.136159] (-) TimerEvent: {}
+[12.236414] (-) TimerEvent: {}
+[12.336706] (-) TimerEvent: {}
+[12.437008] (-) TimerEvent: {}
+[12.537300] (-) TimerEvent: {}
+[12.637602] (-) TimerEvent: {}
+[12.737919] (-) TimerEvent: {}
+[12.838228] (-) TimerEvent: {}
+[12.910388] (mars_rover_tasks) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/plant_detector.cpp:1\x1b[m\x1b[K:\n'}
+[12.910575] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/include/mars_rover_tasks/plant_detector.hpp:\x1b[m\x1b[K In constructor '\x1b[01m\x1b[KPlantDetector::PlantDetector(const string&)\x1b[m\x1b[K':\n"}
+[12.910650] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/include/mars_rover_tasks/plant_detector.hpp:67:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K'\x1b[01m\x1b[KPlantDetector::device_\x1b[m\x1b[K' will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n"}
+[12.910758] (mars_rover_tasks) StderrLine: {'line': b'   67 |   DeviceType \x1b[01;35m\x1b[Kdevice_\x1b[m\x1b[K;\n'}
+[12.910826] (mars_rover_tasks) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[12.910890] (mars_rover_tasks) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/include/mars_rover_tasks/plant_detector.hpp:63:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  '\x1b[01m\x1b[Kbool PlantDetector::model_loaded_\x1b[m\x1b[K' [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n"}
+[12.910958] (mars_rover_tasks) StderrLine: {'line': b'   63 |   bool \x1b[01;35m\x1b[Kmodel_loaded_\x1b[m\x1b[K;\n'}
+[12.911021] (mars_rover_tasks) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.911084] (mars_rover_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/mars_rover_tasks/src/plant_detector.cpp:14:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.911155] (mars_rover_tasks) StderrLine: {'line': b'   14 | \x1b[01;35m\x1b[KPlantDetector\x1b[m\x1b[K::PlantDetector(const std::string &model_path)\n'}
+[12.911219] (mars_rover_tasks) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.938315] (-) TimerEvent: {}
+[13.038584] (-) TimerEvent: {}
+[13.138897] (-) TimerEvent: {}
+[13.239196] (-) TimerEvent: {}
+[13.339503] (-) TimerEvent: {}
+[13.412448] (mars_rover_tasks) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX static library libplant_detector_lib.a\x1b[0m\n'}
+[13.439733] (-) TimerEvent: {}
+[13.540002] (-) TimerEvent: {}
+[13.640301] (-) TimerEvent: {}
+[13.740592] (-) TimerEvent: {}
+[13.840897] (-) TimerEvent: {}
+[13.941202] (-) TimerEvent: {}
+[14.041496] (-) TimerEvent: {}
+[14.141786] (-) TimerEvent: {}
+[14.242085] (-) TimerEvent: {}
+[14.342379] (-) TimerEvent: {}
+[14.442672] (-) TimerEvent: {}
+[14.542986] (-) TimerEvent: {}
+[14.643286] (-) TimerEvent: {}
+[14.743576] (-) TimerEvent: {}
+[14.843879] (-) TimerEvent: {}
+[14.944180] (-) TimerEvent: {}
+[15.044481] (-) TimerEvent: {}
+[15.144774] (-) TimerEvent: {}
+[15.245072] (-) TimerEvent: {}
+[15.345368] (-) TimerEvent: {}
+[15.445667] (-) TimerEvent: {}
+[15.545962] (-) TimerEvent: {}
+[15.646266] (-) TimerEvent: {}
+[15.746567] (-) TimerEvent: {}
+[15.846890] (-) TimerEvent: {}
+[15.947192] (-) TimerEvent: {}
+[16.047490] (-) TimerEvent: {}
+[16.147787] (-) TimerEvent: {}
+[16.248093] (-) TimerEvent: {}
+[16.348396] (-) TimerEvent: {}
+[16.448699] (-) TimerEvent: {}
+[16.549020] (-) TimerEvent: {}
+[16.649330] (-) TimerEvent: {}
+[16.749626] (-) TimerEvent: {}
+[16.849921] (-) TimerEvent: {}
+[16.950213] (-) TimerEvent: {}
+[17.050507] (-) TimerEvent: {}
+[17.150835] (-) TimerEvent: {}
+[17.251128] (-) TimerEvent: {}
+[17.351422] (-) TimerEvent: {}
+[17.451717] (-) TimerEvent: {}
+[17.552016] (-) TimerEvent: {}
+[17.652325] (-) TimerEvent: {}
+[17.752630] (-) TimerEvent: {}
+[17.852925] (-) TimerEvent: {}
+[17.953221] (-) TimerEvent: {}
+[18.053509] (-) TimerEvent: {}
+[18.153806] (-) TimerEvent: {}
+[18.254111] (-) TimerEvent: {}
+[18.354403] (-) TimerEvent: {}
+[18.454699] (-) TimerEvent: {}
+[18.555000] (-) TimerEvent: {}
+[18.655295] (-) TimerEvent: {}
+[18.755588] (-) TimerEvent: {}
+[18.855883] (-) TimerEvent: {}
+[18.956182] (-) TimerEvent: {}
+[19.056481] (-) TimerEvent: {}
+[19.156777] (-) TimerEvent: {}
+[19.257071] (-) TimerEvent: {}
+[19.357370] (-) TimerEvent: {}
+[19.457663] (-) TimerEvent: {}
+[19.557961] (-) TimerEvent: {}
+[19.658254] (-) TimerEvent: {}
+[19.758551] (-) TimerEvent: {}
+[19.858871] (-) TimerEvent: {}
+[19.959164] (-) TimerEvent: {}
+[20.059458] (-) TimerEvent: {}
+[20.159764] (-) TimerEvent: {}
+[20.260062] (-) TimerEvent: {}
+[20.360358] (-) TimerEvent: {}
+[20.460653] (-) TimerEvent: {}
+[20.560954] (-) TimerEvent: {}
+[20.661259] (-) TimerEvent: {}
+[20.761551] (-) TimerEvent: {}
+[20.861844] (-) TimerEvent: {}
+[20.962135] (-) TimerEvent: {}
+[21.062428] (-) TimerEvent: {}
+[21.162722] (-) TimerEvent: {}
+[21.263028] (-) TimerEvent: {}
+[21.363333] (-) TimerEvent: {}
+[21.463770] (-) TimerEvent: {}
+[21.564070] (-) TimerEvent: {}
+[21.664354] (-) TimerEvent: {}
+[21.764647] (-) TimerEvent: {}
+[21.864939] (-) TimerEvent: {}
+[21.965246] (-) TimerEvent: {}
+[22.065552] (-) TimerEvent: {}
+[22.165847] (-) TimerEvent: {}
+[22.266141] (-) TimerEvent: {}
+[22.366434] (-) TimerEvent: {}
+[22.466723] (-) TimerEvent: {}
+[22.567022] (-) TimerEvent: {}
+[22.667315] (-) TimerEvent: {}
+[22.767625] (-) TimerEvent: {}
+[22.868368] (-) TimerEvent: {}
+[22.968665] (-) TimerEvent: {}
+[23.068973] (-) TimerEvent: {}
+[23.169293] (-) TimerEvent: {}
+[23.269581] (-) TimerEvent: {}
+[23.369868] (-) TimerEvent: {}
+[23.470156] (-) TimerEvent: {}
+[23.570761] (-) TimerEvent: {}
+[23.671072] (-) TimerEvent: {}
+[23.771384] (-) TimerEvent: {}
+[23.871743] (-) TimerEvent: {}
+[23.972054] (-) TimerEvent: {}
+[24.072351] (-) TimerEvent: {}
+[24.172641] (-) TimerEvent: {}
+[24.272939] (-) TimerEvent: {}
+[24.373302] (-) TimerEvent: {}
+[24.473614] (-) TimerEvent: {}
+[24.573984] (-) TimerEvent: {}
+[24.674285] (-) TimerEvent: {}
+[24.774580] (-) TimerEvent: {}
+[24.874884] (-) TimerEvent: {}
+[24.975187] (-) TimerEvent: {}
+[25.075473] (-) TimerEvent: {}
+[25.175761] (-) TimerEvent: {}
+[25.276053] (-) TimerEvent: {}
+[25.376352] (-) TimerEvent: {}
+[25.476698] (-) TimerEvent: {}
+[25.576996] (-) TimerEvent: {}
+[25.677321] (-) TimerEvent: {}
+[25.778119] (-) TimerEvent: {}
+[25.878415] (-) TimerEvent: {}
+[25.978708] (-) TimerEvent: {}
+[26.079009] (-) TimerEvent: {}
+[26.179306] (-) TimerEvent: {}
+[26.279598] (-) TimerEvent: {}
+[26.379893] (-) TimerEvent: {}
+[26.480380] (-) TimerEvent: {}
+[26.580687] (-) TimerEvent: {}
+[26.680976] (-) TimerEvent: {}
+[26.781281] (-) TimerEvent: {}
+[26.881570] (-) TimerEvent: {}
+[26.981856] (-) TimerEvent: {}
+[27.082153] (-) TimerEvent: {}
+[27.182449] (-) TimerEvent: {}
+[27.282772] (-) TimerEvent: {}
+[27.383066] (-) TimerEvent: {}
+[27.483361] (-) TimerEvent: {}
+[27.583653] (-) TimerEvent: {}
+[27.683917] (-) TimerEvent: {}
+[27.784201] (-) TimerEvent: {}
+[27.884493] (-) TimerEvent: {}
+[27.984795] (-) TimerEvent: {}
+[28.085164] (-) TimerEvent: {}
+[28.185456] (-) TimerEvent: {}
+[28.285743] (-) TimerEvent: {}
+[28.386025] (-) TimerEvent: {}
+[28.486312] (-) TimerEvent: {}
+[28.586610] (-) TimerEvent: {}
+[28.686931] (-) TimerEvent: {}
+[28.787223] (-) TimerEvent: {}
+[28.887516] (-) TimerEvent: {}
+[28.987810] (-) TimerEvent: {}
+[29.088107] (-) TimerEvent: {}
+[29.188390] (-) TimerEvent: {}
+[29.288678] (-) TimerEvent: {}
+[29.388962] (-) TimerEvent: {}
+[29.489262] (-) TimerEvent: {}
+[29.589567] (-) TimerEvent: {}
+[29.689858] (-) TimerEvent: {}
+[29.790153] (-) TimerEvent: {}
+[29.890443] (-) TimerEvent: {}
+[29.990746] (-) TimerEvent: {}
+[30.091044] (-) TimerEvent: {}
+[30.191343] (-) TimerEvent: {}
+[30.253360] (mars_rover_tasks) StdoutLine: {'line': b'[ 62%] Built target plant_detector_lib\n'}
+[30.254195] (mars_rover_tasks) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[30.255989] (mars_rover_tasks) CommandEnded: {'returncode': 2}
+[30.291438] (-) TimerEvent: {}
+[30.311816] (mars_rover_tasks) JobEnded: {'identifier': 'mars_rover_tasks', 'rc': 2}
+[30.322436] (-) EventReactorShutdown: {}
