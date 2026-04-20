@@ -1,4 +1,0 @@
-source;share/mars_rover_tasks/local_setup.bash
-source;share/mars_rover_tasks/local_setup.dsv
-source;share/mars_rover_tasks/local_setup.sh
-source;share/mars_rover_tasks/local_setup.zsh

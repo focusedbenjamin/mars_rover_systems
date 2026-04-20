@@ -1,8 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target publish_mars_rover_move_executable[0m
-[35m[1mConsolidate compiler generated dependencies of target plant_detector_lib[0m
-[ 12%] [32mBuilding CXX object CMakeFiles/subscriber_obstacle_detector_executable.dir/src/subscriber_obstacle_detector.cpp.o[0m
-[ 37%] Built target plant_detector_lib
-[ 62%] Built target publish_mars_rover_move_executable
-[ 75%] [32mBuilding CXX object CMakeFiles/image_plant_detector_executable.dir/src/plant_detector_node.cpp.o[0m
-[ 87%] [32m[1mLinking CXX executable image_plant_detector_executable[0m
-[ 87%] Built target image_plant_detector_executable
