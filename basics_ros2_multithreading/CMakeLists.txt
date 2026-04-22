@@ -5,42 +5,82 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# Dependencies
+# Find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
-find_package(std_srvs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(OpenCV REQUIRED)
+find_package(std_srvs REQUIRED)   # ✅ REQUIRED (already correct)
 
-# === EXECUTABLES ===
+# Include directories
+include_directories(include)
 
-add_executable(function src/function.cpp)
-ament_target_dependencies(function rclcpp)
+# =========================
+# EXECUTABLES
+# =========================
 
-add_executable(callback_function src/callback_function.cpp)
-ament_target_dependencies(callback_function rclcpp)
+add_executable(plant_detector_basic src/plant_detector.cpp)
 
-add_executable(callback_spinonce_function src/callback_spinonce_function.cpp)
-ament_target_dependencies(callback_spinonce_function rclcpp)
+add_executable(plant_detector_multithreading src/plant_detector_multithreading.cpp)
 
-add_executable(plant_detector src/plant_detector.cpp)
-ament_target_dependencies(plant_detector 
-  rclcpp 
-  sensor_msgs 
-  geometry_msgs 
-  std_srvs 
-  cv_bridge 
+add_executable(plant_detector_multithreading_callbackgroups src/plant_detector_multithreading_callbackgroups.cpp)
+# ❌ commented out (previous errors: missing main / incomplete nodes)
+# add_executable(plant_detector_multithreading_callbackgroups src/plant_detector_multithreading_callbackgroups.cpp)
+# add_executable(green_detector_node src/green_detector_node.cpp)
+# add_executable(green_test src/green_test.cpp)
+
+# =========================
+# DEPENDENCIES
+# =========================
+
+ament_target_dependencies(plant_detector_basic
+  rclcpp
+  std_msgs
+  sensor_msgs
+  geometry_msgs
+  cv_bridge
+  OpenCV
+  std_srvs   # ✅ FIX: ADDED HERE (this was missing)
+)
+
+ament_target_dependencies(plant_detector_multithreading
+  rclcpp
+  std_msgs
+  sensor_msgs
+  geometry_msgs
+  cv_bridge
+  OpenCV
+  std_srvs
+)
+ament_target_dependencies(plant_detector_multithreading_callbackgroups
+  rclcpp
+  std_msgs
+  sensor_msgs
+  std_srvs
+  geometry_msgs
+  cv_bridge
   OpenCV
 )
 
-# === INSTALL ===
+# ❌ disabled dependency blocks (since executables are commented out)
+# ament_target_dependencies(plant_detector_multithreading_callbackgroups ...)
+# ament_target_dependencies(green_detector_node ...)
+# ament_target_dependencies(green_test ...)
+
+# =========================
+# INSTALL
+# =========================
+
 install(TARGETS
-  function
-  callback_function
-  callback_spinonce_function
-  plant_detector
+  plant_detector_basic
+  plant_detector_multithreading
+  DESTINATION lib/${PROJECT_NAME}
+)
+install(TARGETS
+  plant_detector_multithreading_callbackgroups
   DESTINATION lib/${PROJECT_NAME}
 )
 
@@ -48,5 +88,43 @@ install(DIRECTORY
   launch
   DESTINATION share/${PROJECT_NAME}
 )
+
+install(DIRECTORY
+  include/
+  DESTINATION include/
+)
+add_executable(green_detector_node src/green_detector_node.cpp)
+add_executable(green_test src/green_test.cpp)
+
+ament_target_dependencies(green_test
+  rclcpp
+  std_msgs
+  cv_bridge
+  OpenCV
+)
+
+ament_target_dependencies(green_detector_node
+  rclcpp
+  std_msgs
+  std_srvs
+  sensor_msgs
+  cv_bridge
+  OpenCV
+)
+
+# Install executables
+install(TARGETS
+  green_detector_node
+  green_test
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  set(ament_cmake_copyright_FOUND TRUE)
+  set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
 
 ament_package()

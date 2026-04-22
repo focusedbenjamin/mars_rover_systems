@@ -1,0 +1,2 @@
+/usr/bin/ar qc libplant_detector_lib.a CMakeFiles/plant_detector_lib.dir/src/plant_detector.cpp.o
+/usr/bin/ranlib libplant_detector_lib.a

@@ -1,0 +1,24 @@
+[0.016s] Invoking command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/basics_ros2_multithreading -- -j8 -l8
+[0.044s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.178s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.213s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.215s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.221s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.250s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.311s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.313s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.497s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.662s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.793s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.818s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.818s]   ament_target_dependencies() the passed package name 'std_srvs' was not
+[0.818s]   found before
+[0.818s] Call Stack (most recent call first):
+[0.819s]   CMakeLists.txt:39 (ament_target_dependencies)
+[0.819s] 
+[0.819s] [0m
+[0.819s] -- Configuring incomplete, errors occurred!
+[0.819s] See also "/home/user/ros2_ws/src/build/basics_ros2_multithreading/CMakeFiles/CMakeOutput.log".
+[0.824s] gmake: *** [Makefile:431: cmake_check_build_system] Error 1
+[0.826s] Invoked command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/basics_ros2_multithreading -- -j8 -l8

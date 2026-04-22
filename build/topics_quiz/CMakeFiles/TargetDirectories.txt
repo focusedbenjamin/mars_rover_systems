@@ -1,0 +1,10 @@
+/home/user/ros2_ws/src/build/topics_quiz/CMakeFiles/uninstall.dir
+/home/user/ros2_ws/src/build/topics_quiz/CMakeFiles/topics_quiz_uninstall.dir
+/home/user/ros2_ws/src/build/topics_quiz/CMakeFiles/topics_quiz_node.dir
+/home/user/ros2_ws/src/build/topics_quiz/CMakeFiles/test.dir
+/home/user/ros2_ws/src/build/topics_quiz/CMakeFiles/edit_cache.dir
+/home/user/ros2_ws/src/build/topics_quiz/CMakeFiles/rebuild_cache.dir
+/home/user/ros2_ws/src/build/topics_quiz/CMakeFiles/list_install_components.dir
+/home/user/ros2_ws/src/build/topics_quiz/CMakeFiles/install.dir
+/home/user/ros2_ws/src/build/topics_quiz/CMakeFiles/install/local.dir
+/home/user/ros2_ws/src/build/topics_quiz/CMakeFiles/install/strip.dir

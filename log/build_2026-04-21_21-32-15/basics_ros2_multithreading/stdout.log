@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target green_test[0m
+[35m[1mConsolidate compiler generated dependencies of target plant_detector_multithreading[0m
+[35m[1mConsolidate compiler generated dependencies of target plant_detector_multithreading_callbackgroups[0m
+[35m[1mConsolidate compiler generated dependencies of target green_detector_node[0m
+[ 10%] [32m[1mLinking CXX executable plant_detector_multithreading[0m
+[ 20%] [32m[1mLinking CXX executable green_test[0m
+[ 40%] [32m[1mLinking CXX executable plant_detector_multithreading_callbackgroups[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/plant_detector_basic.dir/src/plant_detector.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable green_detector_node[0m

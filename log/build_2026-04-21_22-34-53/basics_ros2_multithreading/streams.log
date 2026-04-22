@@ -1,0 +1,71 @@
+[0.018s] Invoking command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/basics_ros2_multithreading -- -j8 -l8
+[0.043s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.177s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.211s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.214s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.220s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.250s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.311s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.313s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.497s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.669s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.804s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.822s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[0.856s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.936s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.936s] -- Configured cppcheck include dirs: /home/user/ros2_ws/src/basics_ros2_multithreading/include
+[0.936s] -- Configured cppcheck exclude dirs and/or files: 
+[0.936s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.937s] -- Added test 'lint_cmake' to check CMake code style
+[0.937s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.938s] -- Added test 'uncrustify' to check C / C++ code style
+[0.938s] -- Configured uncrustify additional arguments: 
+[0.939s] -- Added test 'xmllint' to check XML markup files
+[0.939s] -- Configuring done
+[0.961s] -- Generating done
+[0.963s] -- Build files have been written to: /home/user/ros2_ws/src/build/basics_ros2_multithreading
+[0.990s] [35m[1mConsolidate compiler generated dependencies of target plant_detector_multithreading[0m
+[0.999s] [ 25%] [32mBuilding CXX object CMakeFiles/plant_detector_basic.dir/src/plant_detector.cpp.o[0m
+[1.012s] [ 50%] [32mBuilding CXX object CMakeFiles/plant_detector_multithreading.dir/src/plant_detector_multithreading.cpp.o[0m
+[4.175s] [01m[K/home/user/ros2_ws/src/basics_ros2_multithreading/src/plant_detector.cpp:[m[K In member function '[01m[Kvoid PlantDetectorNode::detect_plants_callback(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K':
+[4.175s] [01m[K/home/user/ros2_ws/src/basics_ros2_multithreading/src/plant_detector.cpp:115:88:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Krequest[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.175s]   115 |     void detect_plants_callback([01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> request[m[K,
+[4.175s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[11.343s] [ 75%] [32m[1mLinking CXX executable plant_detector_basic[0m
+[11.395s] [100%] [32m[1mLinking CXX executable plant_detector_multithreading[0m
+[12.022s] [100%] Built target plant_detector_basic
+[12.086s] [100%] Built target plant_detector_multithreading
+[12.096s] Invoked command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/basics_ros2_multithreading -- -j8 -l8
+[12.143s] Invoking command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/build/basics_ros2_multithreading
+[12.149s] -- Install configuration: ""
+[12.149s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/plant_detector_basic
+[12.158s] -- Set runtime path of "/home/user/ros2_ws/src/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/plant_detector_basic" to ""
+[12.158s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/plant_detector_multithreading
+[12.167s] -- Set runtime path of "/home/user/ros2_ws/src/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/plant_detector_multithreading" to ""
+[12.167s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch
+[12.167s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/callback_function.launch.py
+[12.167s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/plant_detector_multithreading_callbackgroups.launch.py
+[12.167s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/green_detector_node.launch.py
+[12.168s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/plant_detector.launch.py
+[12.168s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/plant_detector_multithreading.launch.py
+[12.168s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/include/
+[12.168s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/include//basics_ros2_multithreading
+[12.168s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/include//basics_ros2_multithreading/green_detector.hpp
+[12.168s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/include//basics_ros2_multithreading/plant_detector.hpp
+[12.168s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/ament_index/resource_index/package_run_dependencies/basics_ros2_multithreading
+[12.169s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/ament_index/resource_index/parent_prefix_path/basics_ros2_multithreading
+[12.169s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/ament_prefix_path.sh
+[12.169s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/ament_prefix_path.dsv
+[12.169s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/path.sh
+[12.170s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/path.dsv
+[12.170s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.bash
+[12.170s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.sh
+[12.170s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.zsh
+[12.171s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.dsv
+[12.171s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.dsv
+[12.171s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/ament_index/resource_index/packages/basics_ros2_multithreading
+[12.172s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/cmake/basics_ros2_multithreadingConfig.cmake
+[12.172s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/cmake/basics_ros2_multithreadingConfig-version.cmake
+[12.172s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.xml
+[12.174s] Invoked command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/build/basics_ros2_multithreading

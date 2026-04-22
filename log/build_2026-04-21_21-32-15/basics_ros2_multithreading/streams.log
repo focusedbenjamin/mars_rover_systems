@@ -1,0 +1,39 @@
+[0.017s] Invoking command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/basics_ros2_multithreading -- -j8 -l8
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target green_test[0m
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target plant_detector_multithreading[0m
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target plant_detector_multithreading_callbackgroups[0m
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target green_detector_node[0m
+[0.071s] [ 10%] [32m[1mLinking CXX executable plant_detector_multithreading[0m
+[0.072s] [ 20%] [32m[1mLinking CXX executable green_test[0m
+[0.074s] [ 40%] [32m[1mLinking CXX executable plant_detector_multithreading_callbackgroups[0m
+[0.074s] [ 40%] [32mBuilding CXX object CMakeFiles/plant_detector_basic.dir/src/plant_detector.cpp.o[0m
+[0.075s] [ 50%] [32m[1mLinking CXX executable green_detector_node[0m
+[0.153s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.153s] (.text+0x1b): undefined reference to `main'
+[0.155s] collect2: error: ld returned 1 exit status
+[0.157s] gmake[2]: *** [CMakeFiles/green_test.dir/build.make:159: green_test] Error 1
+[0.157s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/green_test.dir/all] Error 2
+[0.157s] gmake[1]: *** Waiting for unfinished jobs....
+[0.334s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.334s] (.text+0x1b): undefined reference to `main'
+[0.336s] collect2: error: ld returned 1 exit status
+[0.338s] gmake[2]: *** [CMakeFiles/plant_detector_multithreading.dir/build.make:230: plant_detector_multithreading] Error 1
+[0.338s] gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/plant_detector_multithreading.dir/all] Error 2
+[0.397s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.397s] (.text+0x1b): undefined reference to `main'
+[0.400s] collect2: error: ld returned 1 exit status
+[0.401s] gmake[2]: *** [CMakeFiles/plant_detector_multithreading_callbackgroups.dir/build.make:230: plant_detector_multithreading_callbackgroups] Error 1
+[0.401s] gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/plant_detector_multithreading_callbackgroups.dir/all] Error 2
+[0.407s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.407s] (.text+0x1b): undefined reference to `main'
+[0.409s] collect2: error: ld returned 1 exit status
+[0.410s] gmake[2]: *** [CMakeFiles/green_detector_node.dir/build.make:230: green_detector_node] Error 1
+[0.410s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/green_detector_node.dir/all] Error 2
+[0.442s] [01m[K/home/user/ros2_ws/src/basics_ros2_multithreading/src/plant_detector.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/srv/trigger.hpp: No such file or directory
+[0.442s]     6 | #include [01;31m[K<std_srvs/srv/trigger.hpp>[m[K
+[0.442s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.442s] compilation terminated.
+[0.445s] gmake[2]: *** [CMakeFiles/plant_detector_basic.dir/build.make:76: CMakeFiles/plant_detector_basic.dir/src/plant_detector.cpp.o] Error 1
+[0.445s] gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/plant_detector_basic.dir/all] Error 2
+[0.445s] gmake: *** [Makefile:146: all] Error 2
+[0.447s] Invoked command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/basics_ros2_multithreading -- -j8 -l8

@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000446] (-) JobUnselected: {'identifier': 'mars_rover_systems'}
+[0.000681] (-) JobUnselected: {'identifier': 'mars_rover_tasks'}
+[0.000759] (-) JobUnselected: {'identifier': 'topics_quiz'}
+[0.000798] (basics_ros2_multithreading) JobQueued: {'identifier': 'basics_ros2_multithreading', 'dependencies': OrderedDict()}
+[0.000893] (basics_ros2_multithreading) JobStarted: {'identifier': 'basics_ros2_multithreading'}
+[0.014199] (basics_ros2_multithreading) JobProgress: {'identifier': 'basics_ros2_multithreading', 'progress': 'cmake'}
+[0.014782] (basics_ros2_multithreading) JobProgress: {'identifier': 'basics_ros2_multithreading', 'progress': 'build'}
+[0.015817] (basics_ros2_multithreading) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/src/build/basics_ros2_multithreading', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/src/build/basics_ros2_multithreading', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROBOT_HOSTNAME', ''), ('PWD', '/home/user/ros2_ws/src/build/basics_ros2_multithreading'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/home/user/ros2_ws/install/basics_ros2_multithreading:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/home/user/ros2_ws/install/basics_ros2_multithreading:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/tracetools_test/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_read/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/test_tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/rclpy/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/leo_description/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('ROBOT_DESCRIPTION_PATH', '/home/simulations/ros2_sims_ws/install/robot_description'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/tracetools/lib:/home/simulations/ros2_sims_ws/install/rclpy/lib:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins/lib:/home/simulations/ros2_sims_ws/install/leo_description/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'dac143c1-8d25-418a-9394-b6bd464605aa'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25045'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin:/home/user/.cargo/bin:/home/simulations/ros2_sims_ws/src/cpp_callback_visual_scripts:/home/user/.cargo/bin:/home/simulations/ros2_sims_ws/src/cpp_callback_visual_scripts:/home/simulations/ros2_sims_ws/src/cpp_callback_visual_scripts:/home/user/.cargo/bin:/home/simulations/ros2_sims_ws/src/cpp_callback_visual_scripts:/home/simulations/ros2_sims_ws/src/cpp_callback_visual_scripts:/home/simulations/ros2_sims_ws/src/cpp_callback_visual_scripts'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.043385] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099478] (-) TimerEvent: {}
+[0.177424] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199580] (-) TimerEvent: {}
+[0.211875] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.214360] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.220742] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.233572] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.250388] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299677] (-) TimerEvent: {}
+[0.311492] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.313544] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399784] (-) TimerEvent: {}
+[0.497846] (basics_ros2_multithreading) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499850] (-) TimerEvent: {}
+[0.600085] (-) TimerEvent: {}
+[0.670139] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.700193] (-) TimerEvent: {}
+[0.800451] (-) TimerEvent: {}
+[0.804377] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.822329] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.856565] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.900533] (-) TimerEvent: {}
+[0.936246] (basics_ros2_multithreading) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.936903] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/user/ros2_ws/src/basics_ros2_multithreading/include\n'}
+[0.937017] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.937087] (basics_ros2_multithreading) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.937509] (basics_ros2_multithreading) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.937882] (basics_ros2_multithreading) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.939006] (basics_ros2_multithreading) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.939078] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.939412] (basics_ros2_multithreading) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.940109] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.961515] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Generating done\n'}
+[0.963848] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/src/build/basics_ros2_multithreading\n'}
+[0.991308] (basics_ros2_multithreading) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plant_detector_multithreading\x1b[0m\n'}
+[0.999804] (basics_ros2_multithreading) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/plant_detector_basic.dir/src/plant_detector.cpp.o\x1b[0m\n'}
+[1.000602] (-) TimerEvent: {}
+[1.012843] (basics_ros2_multithreading) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/plant_detector_multithreading.dir/src/plant_detector_multithreading.cpp.o\x1b[0m\n'}
+[1.100709] (-) TimerEvent: {}
+[1.200973] (-) TimerEvent: {}
+[1.303831] (-) TimerEvent: {}
+[1.404801] (-) TimerEvent: {}
+[1.505095] (-) TimerEvent: {}
+[1.605383] (-) TimerEvent: {}
+[1.705673] (-) TimerEvent: {}
+[1.805967] (-) TimerEvent: {}
+[1.906252] (-) TimerEvent: {}
+[2.006544] (-) TimerEvent: {}
+[2.106845] (-) TimerEvent: {}
+[2.207137] (-) TimerEvent: {}
+[2.307428] (-) TimerEvent: {}
+[2.407724] (-) TimerEvent: {}
+[2.508014] (-) TimerEvent: {}
+[2.608301] (-) TimerEvent: {}
+[2.708606] (-) TimerEvent: {}
+[2.808888] (-) TimerEvent: {}
+[2.909174] (-) TimerEvent: {}
+[3.009469] (-) TimerEvent: {}
+[3.109772] (-) TimerEvent: {}
+[3.210062] (-) TimerEvent: {}
+[3.310349] (-) TimerEvent: {}
+[3.410637] (-) TimerEvent: {}
+[3.510921] (-) TimerEvent: {}
+[3.611224] (-) TimerEvent: {}
+[3.711509] (-) TimerEvent: {}
+[3.811796] (-) TimerEvent: {}
+[3.912084] (-) TimerEvent: {}
+[4.012367] (-) TimerEvent: {}
+[4.112683] (-) TimerEvent: {}
+[4.175432] (basics_ros2_multithreading) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/basics_ros2_multithreading/src/plant_detector.cpp:\x1b[m\x1b[K In member function '\x1b[01m\x1b[Kvoid PlantDetectorNode::detect_plants_callback(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)\x1b[m\x1b[K':\n"}
+[4.175642] (basics_ros2_multithreading) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/basics_ros2_multithreading/src/plant_detector.cpp:115:88:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter '\x1b[01m\x1b[Krequest\x1b[m\x1b[K' [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n"}
+[4.175724] (basics_ros2_multithreading) StderrLine: {'line': b'  115 |     void detect_plants_callback(\x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> request\x1b[m\x1b[K,\n'}
+[4.175791] (basics_ros2_multithreading) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.212783] (-) TimerEvent: {}
+[4.313070] (-) TimerEvent: {}
+[4.413359] (-) TimerEvent: {}
+[4.513652] (-) TimerEvent: {}
+[4.614446] (-) TimerEvent: {}
+[4.714738] (-) TimerEvent: {}
+[4.815030] (-) TimerEvent: {}
+[4.915330] (-) TimerEvent: {}
+[5.015626] (-) TimerEvent: {}
+[5.115918] (-) TimerEvent: {}
+[5.216214] (-) TimerEvent: {}
+[5.316820] (-) TimerEvent: {}
+[5.417107] (-) TimerEvent: {}
+[5.517403] (-) TimerEvent: {}
+[5.617702] (-) TimerEvent: {}
+[5.718062] (-) TimerEvent: {}
+[5.818359] (-) TimerEvent: {}
+[5.918655] (-) TimerEvent: {}
+[6.018951] (-) TimerEvent: {}
+[6.119329] (-) TimerEvent: {}
+[6.219623] (-) TimerEvent: {}
+[6.319914] (-) TimerEvent: {}
+[6.420219] (-) TimerEvent: {}
+[6.520471] (-) TimerEvent: {}
+[6.620758] (-) TimerEvent: {}
+[6.721049] (-) TimerEvent: {}
+[6.821336] (-) TimerEvent: {}
+[6.921624] (-) TimerEvent: {}
+[7.021919] (-) TimerEvent: {}
+[7.122207] (-) TimerEvent: {}
+[7.222492] (-) TimerEvent: {}
+[7.322780] (-) TimerEvent: {}
+[7.423075] (-) TimerEvent: {}
+[7.523365] (-) TimerEvent: {}
+[7.623666] (-) TimerEvent: {}
+[7.723945] (-) TimerEvent: {}
+[7.824236] (-) TimerEvent: {}
+[7.924548] (-) TimerEvent: {}
+[8.024845] (-) TimerEvent: {}
+[8.125138] (-) TimerEvent: {}
+[8.225424] (-) TimerEvent: {}
+[8.325711] (-) TimerEvent: {}
+[8.425994] (-) TimerEvent: {}
+[8.526287] (-) TimerEvent: {}
+[8.626570] (-) TimerEvent: {}
+[8.726906] (-) TimerEvent: {}
+[8.827189] (-) TimerEvent: {}
+[8.927517] (-) TimerEvent: {}
+[9.027793] (-) TimerEvent: {}
+[9.128085] (-) TimerEvent: {}
+[9.228442] (-) TimerEvent: {}
+[9.329247] (-) TimerEvent: {}
+[9.429518] (-) TimerEvent: {}
+[9.529790] (-) TimerEvent: {}
+[9.630068] (-) TimerEvent: {}
+[9.730351] (-) TimerEvent: {}
+[9.830663] (-) TimerEvent: {}
+[9.931017] (-) TimerEvent: {}
+[10.031391] (-) TimerEvent: {}
+[10.131747] (-) TimerEvent: {}
+[10.232089] (-) TimerEvent: {}
+[10.332462] (-) TimerEvent: {}
+[10.432799] (-) TimerEvent: {}
+[10.533099] (-) TimerEvent: {}
+[10.633484] (-) TimerEvent: {}
+[10.733834] (-) TimerEvent: {}
+[10.834128] (-) TimerEvent: {}
+[10.934417] (-) TimerEvent: {}
+[11.034705] (-) TimerEvent: {}
+[11.134994] (-) TimerEvent: {}
+[11.235285] (-) TimerEvent: {}
+[11.335607] (-) TimerEvent: {}
+[11.343331] (basics_ros2_multithreading) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable plant_detector_basic\x1b[0m\n'}
+[11.396259] (basics_ros2_multithreading) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable plant_detector_multithreading\x1b[0m\n'}
+[11.435708] (-) TimerEvent: {}
+[11.536000] (-) TimerEvent: {}
+[11.636294] (-) TimerEvent: {}
+[11.736608] (-) TimerEvent: {}
+[11.836929] (-) TimerEvent: {}
+[11.937280] (-) TimerEvent: {}
+[12.023268] (basics_ros2_multithreading) StdoutLine: {'line': b'[100%] Built target plant_detector_basic\n'}
+[12.037377] (-) TimerEvent: {}
+[12.086852] (basics_ros2_multithreading) StdoutLine: {'line': b'[100%] Built target plant_detector_multithreading\n'}
+[12.097154] (basics_ros2_multithreading) CommandEnded: {'returncode': 0}
+[12.134740] (basics_ros2_multithreading) JobProgress: {'identifier': 'basics_ros2_multithreading', 'progress': 'install'}
+[12.137468] (-) TimerEvent: {}
+[12.142590] (basics_ros2_multithreading) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/src/build/basics_ros2_multithreading'], 'cwd': '/home/user/ros2_ws/src/build/basics_ros2_multithreading', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROBOT_HOSTNAME', ''), ('PWD', '/home/user/ros2_ws/src/build/basics_ros2_multithreading'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/home/user/ros2_ws/install/basics_ros2_multithreading:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description:/home/simulations/ros2_sims_ws/install/robot_description'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/tracetools:/home/simulations/ros2_sims_ws/install/test_tracetools:/home/simulations/ros2_sims_ws/install/ros2_callback_visualiser:/home/simulations/ros2_sims_ws/install/rclpy:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins:/home/simulations/ros2_sims_ws/install/leo_description:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/mars_rover_tasks:/home/user/ros2_ws/install/mars_rover_systems:/home/user/ros2_ws/install/basics_ros2_multithreading:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/tracetools_test/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_trace/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/ros2trace_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_analysis/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/tracetools_read/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/test_tracetools_launch/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/rclpy/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/leo_description/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('ROBOT_DESCRIPTION_PATH', '/home/simulations/ros2_sims_ws/install/robot_description'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/tracetools/lib:/home/simulations/ros2_sims_ws/install/rclpy/lib:/home/simulations/ros2_sims_ws/install/leo_gazebo_plugins/lib:/home/simulations/ros2_sims_ws/install/leo_description/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'dac143c1-8d25-418a-9394-b6bd464605aa'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25045'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin:/home/user/.cargo/bin:/home/simulations/ros2_sims_ws/src/cpp_callback_visual_scripts:/home/user/.cargo/bin:/home/simulations/ros2_sims_ws/src/cpp_callback_visual_scripts:/home/simulations/ros2_sims_ws/src/cpp_callback_visual_scripts:/home/user/.cargo/bin:/home/simulations/ros2_sims_ws/src/cpp_callback_visual_scripts:/home/simulations/ros2_sims_ws/src/cpp_callback_visual_scripts:/home/simulations/ros2_sims_ws/src/cpp_callback_visual_scripts'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[12.149786] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.150005] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/plant_detector_basic\n'}
+[12.158860] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/src/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/plant_detector_basic" to ""\n'}
+[12.159063] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/plant_detector_multithreading\n'}
+[12.167651] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/src/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/plant_detector_multithreading" to ""\n'}
+[12.167804] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch\n'}
+[12.167951] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/callback_function.launch.py\n'}
+[12.168095] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/plant_detector_multithreading_callbackgroups.launch.py\n'}
+[12.168244] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/green_detector_node.launch.py\n'}
+[12.168383] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/plant_detector.launch.py\n'}
+[12.168546] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/plant_detector_multithreading.launch.py\n'}
+[12.168726] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/include/\n'}
+[12.168896] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/include//basics_ros2_multithreading\n'}
+[12.169002] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/include//basics_ros2_multithreading/green_detector.hpp\n'}
+[12.169141] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/include//basics_ros2_multithreading/plant_detector.hpp\n'}
+[12.169301] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/ament_index/resource_index/package_run_dependencies/basics_ros2_multithreading\n'}
+[12.169543] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/ament_index/resource_index/parent_prefix_path/basics_ros2_multithreading\n'}
+[12.169799] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/ament_prefix_path.sh\n'}
+[12.170010] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/ament_prefix_path.dsv\n'}
+[12.170216] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/path.sh\n'}
+[12.170421] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/path.dsv\n'}
+[12.170622] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.bash\n'}
+[12.170819] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.sh\n'}
+[12.171028] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.zsh\n'}
+[12.171737] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.dsv\n'}
+[12.171950] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.dsv\n'}
+[12.172228] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/ament_index/resource_index/packages/basics_ros2_multithreading\n'}
+[12.172476] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/cmake/basics_ros2_multithreadingConfig.cmake\n'}
+[12.172653] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/cmake/basics_ros2_multithreadingConfig-version.cmake\n'}
+[12.172854] (basics_ros2_multithreading) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.xml\n'}
+[12.174210] (basics_ros2_multithreading) CommandEnded: {'returncode': 0}
+[12.230225] (basics_ros2_multithreading) JobEnded: {'identifier': 'basics_ros2_multithreading', 'rc': 0}
+[12.231268] (-) EventReactorShutdown: {}

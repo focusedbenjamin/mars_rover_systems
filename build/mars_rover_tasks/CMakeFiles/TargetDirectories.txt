@@ -1,0 +1,14 @@
+/home/user/ros2_ws/src/build/mars_rover_tasks/CMakeFiles/uninstall.dir
+/home/user/ros2_ws/src/build/mars_rover_tasks/CMakeFiles/mars_rover_tasks_uninstall.dir
+/home/user/ros2_ws/src/build/mars_rover_tasks/CMakeFiles/subscriber_obstacle_detector_executable.dir
+/home/user/ros2_ws/src/build/mars_rover_tasks/CMakeFiles/publish_mars_rover_move_executable.dir
+/home/user/ros2_ws/src/build/mars_rover_tasks/CMakeFiles/autonomous_exploration_executable.dir
+/home/user/ros2_ws/src/build/mars_rover_tasks/CMakeFiles/plant_detector_lib.dir
+/home/user/ros2_ws/src/build/mars_rover_tasks/CMakeFiles/image_plant_detector_executable.dir
+/home/user/ros2_ws/src/build/mars_rover_tasks/CMakeFiles/test.dir
+/home/user/ros2_ws/src/build/mars_rover_tasks/CMakeFiles/edit_cache.dir
+/home/user/ros2_ws/src/build/mars_rover_tasks/CMakeFiles/rebuild_cache.dir
+/home/user/ros2_ws/src/build/mars_rover_tasks/CMakeFiles/list_install_components.dir
+/home/user/ros2_ws/src/build/mars_rover_tasks/CMakeFiles/install.dir
+/home/user/ros2_ws/src/build/mars_rover_tasks/CMakeFiles/install/local.dir
+/home/user/ros2_ws/src/build/mars_rover_tasks/CMakeFiles/install/strip.dir

@@ -1,0 +1,11 @@
+[0.016s] Invoking command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/basics_ros2_multithreading -- -j8 -l8
+[0.064s] [ 25%] [32mBuilding CXX object CMakeFiles/plant_detector_basic.dir/src/plant_detector.cpp.o[0m
+[0.071s] [ 75%] Built target plant_detector_multithreading
+[0.399s] [01m[K/home/user/ros2_ws/src/basics_ros2_multithreading/src/plant_detector.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/srv/trigger.hpp: No such file or directory
+[0.399s]     6 | #include [01;31m[K"std_srvs/srv/trigger.hpp"[m[K
+[0.399s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.399s] compilation terminated.
+[0.402s] gmake[2]: *** [CMakeFiles/plant_detector_basic.dir/build.make:76: CMakeFiles/plant_detector_basic.dir/src/plant_detector.cpp.o] Error 1
+[0.402s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plant_detector_basic.dir/all] Error 2
+[0.403s] gmake: *** [Makefile:146: all] Error 2
+[0.404s] Invoked command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/basics_ros2_multithreading -- -j8 -l8

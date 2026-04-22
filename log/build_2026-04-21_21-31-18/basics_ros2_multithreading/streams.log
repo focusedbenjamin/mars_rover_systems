@@ -1,0 +1,87 @@
+[0.032s] Invoking command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/basics_ros2_multithreading -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/basics_ros2_multithreading
+[4.518s] -- The C compiler identification is GNU 11.4.0
+[4.582s] -- The CXX compiler identification is GNU 11.4.0
+[4.592s] -- Detecting C compiler ABI info
+[4.757s] -- Detecting C compiler ABI info - done
+[4.768s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.768s] -- Detecting C compile features
+[4.769s] -- Detecting C compile features - done
+[4.775s] -- Detecting CXX compiler ABI info
+[5.037s] -- Detecting CXX compiler ABI info - done
+[5.046s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.046s] -- Detecting CXX compile features
+[5.047s] -- Detecting CXX compile features - done
+[5.055s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.249s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.450s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[5.582s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.605s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.635s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.674s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.731s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.869s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.878s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.648s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.702s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.790s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.821s] -- Looking for pthread.h
+[6.912s] -- Looking for pthread.h - found
+[6.913s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.995s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.995s] -- Found Threads: TRUE  
+[7.200s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.363s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[7.391s] -- Found OpenCV: /usr (found version "4.5.4") 
+[7.439s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.620s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.620s] -- Configured cppcheck include dirs: /home/user/ros2_ws/src/basics_ros2_multithreading/include
+[7.621s] -- Configured cppcheck exclude dirs and/or files: 
+[7.622s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.624s] -- Added test 'lint_cmake' to check CMake code style
+[7.626s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.629s] -- Added test 'uncrustify' to check C / C++ code style
+[7.629s] -- Configured uncrustify additional arguments: 
+[7.630s] -- Added test 'xmllint' to check XML markup files
+[7.633s] -- Configuring done
+[7.691s] -- Generating done
+[7.695s] -- Build files have been written to: /home/user/ros2_ws/src/build/basics_ros2_multithreading
+[7.710s] Invoked command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/basics_ros2_multithreading -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/basics_ros2_multithreading
+[7.712s] Invoking command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/basics_ros2_multithreading -- -j8 -l8
+[7.788s] [ 10%] [32mBuilding CXX object CMakeFiles/plant_detector_multithreading.dir/src/plant_detector_multithreading.cpp.o[0m
+[7.796s] [ 20%] [32mBuilding CXX object CMakeFiles/plant_detector_multithreading_callbackgroups.dir/src/plant_detector_multithreading_callbackgroups.cpp.o[0m
+[7.811s] [ 30%] [32mBuilding CXX object CMakeFiles/green_test.dir/src/green_test.cpp.o[0m
+[7.824s] [ 40%] [32mBuilding CXX object CMakeFiles/green_detector_node.dir/src/green_detector_node.cpp.o[0m
+[7.841s] [ 50%] [32mBuilding CXX object CMakeFiles/plant_detector_basic.dir/src/plant_detector.cpp.o[0m
+[7.847s] [ 60%] [32m[1mLinking CXX executable plant_detector_multithreading[0m
+[7.851s] [ 70%] [32m[1mLinking CXX executable plant_detector_multithreading_callbackgroups[0m
+[7.853s] [ 80%] [32m[1mLinking CXX executable green_test[0m
+[7.911s] [ 90%] [32m[1mLinking CXX executable green_detector_node[0m
+[7.956s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[7.956s] (.text+0x1b): undefined reference to `main'
+[7.958s] collect2: error: ld returned 1 exit status
+[7.960s] gmake[2]: *** [CMakeFiles/green_test.dir/build.make:159: green_test] Error 1
+[7.960s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/green_test.dir/all] Error 2
+[7.960s] gmake[1]: *** Waiting for unfinished jobs....
+[8.282s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[8.282s] (.text+0x1b): undefined reference to `main'
+[8.285s] collect2: error: ld returned 1 exit status
+[8.287s] gmake[2]: *** [CMakeFiles/plant_detector_multithreading.dir/build.make:230: plant_detector_multithreading] Error 1
+[8.287s] gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/plant_detector_multithreading.dir/all] Error 2
+[8.384s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[8.384s] (.text+0x1b): undefined reference to `main'
+[8.387s] collect2: error: ld returned 1 exit status
+[8.390s] gmake[2]: *** [CMakeFiles/green_detector_node.dir/build.make:230: green_detector_node] Error 1
+[8.390s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/green_detector_node.dir/all] Error 2
+[8.398s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[8.398s] (.text+0x1b): undefined reference to `main'
+[8.401s] collect2: error: ld returned 1 exit status
+[8.402s] gmake[2]: *** [CMakeFiles/plant_detector_multithreading_callbackgroups.dir/build.make:230: plant_detector_multithreading_callbackgroups] Error 1
+[8.402s] gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/plant_detector_multithreading_callbackgroups.dir/all] Error 2
+[8.441s] [01m[K/home/user/ros2_ws/src/basics_ros2_multithreading/src/plant_detector.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/srv/trigger.hpp: No such file or directory
+[8.442s]     6 | #include [01;31m[K<std_srvs/srv/trigger.hpp>[m[K
+[8.442s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.442s] compilation terminated.
+[8.446s] gmake[2]: *** [CMakeFiles/plant_detector_basic.dir/build.make:76: CMakeFiles/plant_detector_basic.dir/src/plant_detector.cpp.o] Error 1
+[8.446s] gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/plant_detector_basic.dir/all] Error 2
+[8.446s] gmake: *** [Makefile:146: all] Error 2
+[8.449s] Invoked command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/basics_ros2_multithreading -- -j8 -l8
