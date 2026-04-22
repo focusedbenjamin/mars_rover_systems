@@ -1,9 +1,0 @@
-[31mCMake Error at CMakeLists.txt:26 (add_executable):
-  add_executable cannot create target "plant_detector_multithreading" because
-  another target with the same name already exists.  The existing target is
-  an executable created in source directory
-  "/home/user/ros2_ws/src/basics_ros2_multithreading".  See documentation for
-  policy CMP0002 for more details.
-
-[0m
-gmake: *** [Makefile:431: cmake_check_build_system] Error 1
